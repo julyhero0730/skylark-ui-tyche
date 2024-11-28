@@ -1,0 +1,918 @@
+<template>
+  <top-search-pane
+    v-model="searchParam"
+    :paneObject="topSearchPaneObject"
+    :useSearch="true"
+    :searchFunc="search"
+    :useClear="true"
+    :clearFunc="clearGrid"
+    @showSearchPopup="showPopup"
+  ></top-search-pane>
+  <frmHlpCst v-model="showCstNoSearch" @selected-popup-row-data="getPopupRowDataCstNo"></frmHlpCst>
+  <frmHlpCst v-model="showCstNameSearch" @selected-popup-row-data="getPopupRowDataCstName"></frmHlpCst>
+
+  <q-page-container>
+    <q-page class="double_table_container">
+      <div class="table_container">
+        <div class="icon_button_wrapper">
+          <div class="rows_box">
+              <label>{{ $t('label.view.showRows') }}</label>
+              <CommonSelectBox :codeList="commonCodeList.fetchSizeList" v-model="searchParam.fetchSize.value"></CommonSelectBox>
+              <input type="hidden" v-model="searchParam.maxValue.value"/>
+          </div>
+          <div class="align_button_box">
+              <label >{{ rowCounts }} {{ $t('label.view.rows') }}</label>
+              <q-btn flat class="button" @click="nextSearch()"><img src="~/assets/images/form-btn-dnarrow-11.svg" alt /></q-btn>
+              <q-btn flat class="button" @click="allSearch()"><img src="~/assets/images/form-btn-dnarrow-22.svg" alt /></q-btn>
+          </div>
+        </div>
+        <div class="table_scroll_box">
+          <ag-grid-vue
+            class="msg_table ag-theme-balham height73"
+            :rowData="customerListRowData"
+            :columnDefs="gridProps.columnDefs(commonCodeList)"
+            :columnTypes="gridProps.columnTypes"
+            :defaultColDef="gridProps.defaultColDef"
+            @grid-ready="gridProps.onGridReady"
+            rowSelection="single"
+            @row-clicked="selectCustomer"
+            :getRowStyle="gridProps.getRowStyle"
+          ></ag-grid-vue>
+        </div>
+      </div>
+      <div class="table_container_2">
+        <div class="table_top_button_wrapper">
+          <div class="radio_wrapper">
+            <q-radio dense v-model="formParam.transactionMode.value" val="NEW" color="brand" label="New" @update:model-value="updateTrxnMode" :disable="trxnModeDisableFlag.newRadio.value" />
+            <q-radio dense v-model="formParam.transactionMode.value" val="INQUIRY" color="brand" label="Inquiry" @update:model-value="updateTrxnMode" :disable="trxnModeDisableFlag.inquiryRadio.value" />
+            <q-radio dense v-model="formParam.transactionMode.value" val="UPDATE" color="brand" label="Update" @update:model-value="updateTrxnMode" :disable="trxnModeDisableFlag.updateRadio.value" />
+            <q-radio dense v-model="formParam.transactionMode.value" val="DELETE" color="brand" label="Delete" @update:model-value="updateTrxnMode" :disable="trxnModeDisableFlag.deleteRadio.value" />
+          </div>
+          <div class="button_box right_button_wrapper">
+            <q-btn :disable="saveDisableFlag" flat class="btn ok_button" @click="save()"><img src="~/assets/images/btn-btn-ic-check.svg" alt="check button" /><span class="button_text">{{ $t('label.view.ok') }}</span></q-btn>
+          </div>
+        </div>
+        <div class="scrollable-container height71 q-pr-md">
+          <section class="box-section">
+            <div class="hidden">Customer Information</div>
+            <div class="msg_info_form_box">
+              <div>
+                <label class="form_label is_required">{{ $t('label.view.customer') }}</label>
+                <div class="form_customer">
+                  <CommonDirectSearchBox class="width37" maxlength="30" v-model="formParam.customerNo.value" :readonly="true" ref="customerNo" hlpType="frmHlpCst" :searchCode="formParam.customerNo.value"></CommonDirectSearchBox>
+                  <CommonInputBox class="width61" maxlength="30" v-model="formParam.customerName.value" :readonly="true" ref="customerName"></CommonInputBox>
+                  <button type="button" class="help_button_simple" @click="showPopup('cust')">
+                    <q-icon name="search" size="sm" />
+                  </button>
+                  <frmHlpCst v-model="showCustomerSearch" @selected-popup-row-data="getCstPopupRowData"></frmHlpCst>
+                </div>
+              </div>
+              <div>
+                <label class="form_label">{{ $t('label.view.transactionType') }}</label>
+                <div class="radio_wrapper box">
+                  <q-radio dense v-model="formParam.transactionType.value" val="NORMAL" color="brand" label="Normal" @update:model-value="updateTrxnType" :disable="trxnTypeDisableFlag.normalRadio.value" />
+                  <q-radio dense v-model="formParam.transactionType.value" val="RELEASE" color="brand" label="Release" @update:model-value="updateTrxnType" :disable="trxnTypeDisableFlag.releaseRadio.value" />
+                </div>
+              </div>
+              <div>
+                <label class="form_label">{{ $t('label.objt.customerTypeCode') }}</label>
+                <CommonSelectBox :codeList="commonCodeList.customerTypeCode" v-model="formParam.customerType.value" :readonly="true"></CommonSelectBox>
+              </div>
+              <div>
+                <label class="form_label">{{ $t('label.view.customerDetailType') }}</label>
+                <CommonSelectBox :codeList="commonCodeList.customerDetailTypeCode" v-model="formParam.customerDetailType.value" :readonly="true"></CommonSelectBox>
+              </div>
+              <div>
+                <label class="form_label">{{ $t('label.view.creditRating') }}</label>
+                <CommonSelectBox :codeList="creditRateList" v-model="formParam.creditRate.value" @update:model-value="formCheck" :readonly="optionalFlag.creditRate.value"></CommonSelectBox>
+              </div>
+              <div>
+                <label class="form_label">{{ $t('label.objt.evaluationDate') }}</label>
+                <CommonCalendarYMD v-model="formParam.evaluationDate.value" @update:model-value="formCheck" :readonly="optionalFlag.evaluationDate.value" :max-date="dayjs(fromDate).format(commonProp.dateformat.dateType)"></CommonCalendarYMD>
+              </div>
+              <div>
+                <label class="form_label">{{ $t('label.objt.releaseDate') }}</label>
+                <CommonCalendarYMD v-model="formParam.releaseDate.value" @update:model-value="formCheck" :readonly="optionalFlag.releaseDate.value" :min-date="formParam.evaluationDate.value"></CommonCalendarYMD>
+              </div>
+              <div>
+                <label class="form_label">{{ $t('label.objt.expireDate') }}</label>
+                <CommonCalendarYMD v-model="formParam.expireDate.value" @update:model-value="formCheck" :readonly="optionalFlag.expireDate.value" :min-date="formParam.evaluationDate.value"></CommonCalendarYMD>
+              </div>
+              <div class="wide">
+                <label class="form_label">{{ $t('label.view.remark') }}</label>
+                <CommonInputBox v-model="formParam.rmk.value" @update:model-value="formCheck" :readonly="optionalFlag.rmk.value"></CommonInputBox>
+              </div>
+            </div>
+          </section>
+          <section class="box-section">
+            <div class="subtitle">Credit Evaluation History</div>
+            <div class="table_scroll_box">
+              <ag-grid-vue
+                class="msg_table ag-theme-balham height45"
+                :rowData="historyRowData"
+                :columnDefs="gridProps2.columnDefs(commonCodeList)"
+                :columnTypes="gridProps2.columnTypes"
+                :defaultColDef="gridProps2.defaultColDef"
+                @grid-ready="gridProps2.onGridReady"
+                rowSelection="single"
+                @row-clicked="selectHistory"
+                :getRowStyle="gridProps2.getRowStyle"
+            ></ag-grid-vue>
+          </div>
+          </section>
+        </div>
+      </div>
+    </q-page>
+  </q-page-container>
+</template>
+
+<script setup>
+/*
+    304020 - Customer Credit Evaluation
+
+    Index.
+    1. Import Area
+    2. Global Variable
+    3. Common Code Adapter
+    4. Grid Props
+    5. Grid Function
+    6. Freeform Object
+    7. Freeform Function
+    8. Business Function
+    9. popup
+    10. TabKey event
+    11. Loading Module
+*/
+
+/* =======================================================
+    1. Import Area
+======================================================= */
+import { reactive, ref, watch, watchEffect, onMounted } from 'vue'
+import { ajaxUtil, frmHlpCst, commonUtil, messageBox, gridPropsUtil, commonProp } from 'skylark-ui-lib'
+import { useSessionStore } from 'stores/session'
+import dayjs from 'dayjs'
+import { i18n } from 'boot/i18n'
+import { AgGridVue } from 'ag-grid-vue3'
+import { gridProps } from 'src/pages/lon/com/cst/lonComCstGridProps.vue'
+import { gridProps2 } from 'src/pages/lon/com/cst/lonComCstHistoryGridProps.vue'
+
+/* =======================================================
+    2. Global Variable
+======================================================= */
+const session = useSessionStore()
+const fromDate = session.sysCurrentBusinessDate
+const customerListRowData = ref([])
+const historyRowData = ref([])
+const rowCounts = ref(0)
+const showCstNoSearch = ref(false)
+const showCstNameSearch = ref(false)
+const showCustomerSearch = ref(false)
+const selectedPopupRowData = ref([])
+
+const topSearchPaneObject = ref([
+  {
+    type: 'label',
+    label: i18n.global.t('label.view.searchCriteria')
+  },
+  {
+    type: 'dropdown',
+    model: 'searchCriteria',
+    dropdownList: []
+  },
+  {
+    type: 'popup',
+    model: 'searchKeyword'
+  }
+])
+/* =======================================================
+    3. Common Code Adapter
+======================================================= */
+const commonCodeList = reactive({
+  searchCriteriaList: ref([]),
+  fetchSizeList: ref([]),
+  customerTypeCode: ref([]),
+  customerDetailTypeCode: ref([]),
+  brcCurrencyCodeList: ref([])
+})
+ajaxUtil.getCodeList('SHOWROWS, CUSTOMER_TYPE_CODE, CUSTOMER_DETAIL_TYPE_CODE')
+  .then(function (codeData) {
+    commonCodeList.fetchSizeList = codeData.showrows
+    commonCodeList.customerTypeCode = codeData.customerTypeCode
+    commonCodeList.customerDetailTypeCode = codeData.customerDetailTypeCode
+  })
+
+ajaxUtil.getCurrencyCodeForBranch()
+  .then(function (codeData) {
+    commonCodeList.brcCurrencyCodeList = codeData
+  })
+
+/* =======================================================
+    4. Grid Props
+======================================================= */
+const searchCriteria = [
+  { code: 'CUSTOMER_NAME', codeValue: i18n.global.t('label.objt.customerName') },
+  { code: 'CUSTOMER_NO', codeValue: i18n.global.t('label.view.customerNo') }
+]
+commonCodeList.searchCriteriaList = searchCriteria
+
+/* =======================================================
+    5. Grid Function
+======================================================= */
+const showPopup = (param) => {
+  switch (param) {
+    case 'searchKeyword' :
+      if (searchParam.value.searchCriteria.value === 'CUSTOMER_NO') {
+        showCstNoSearch.value = true
+      } else if (searchParam.value.searchCriteria.value === 'CUSTOMER_NAME') {
+        showCstNameSearch.value = true
+      }
+      break
+    case 'cust' :
+      showCustomerSearch.value = true
+      break
+  }
+}
+
+const search = () => {
+  searchParam.value.maxValue.value = '0'
+  const newSearchParam = commonUtil.inputValueToJson('bsLonComCstService', 'LONCOMCST002', searchParam, customerListRowData, rowCounts)
+  // console.log(newSearchParam)
+  ajaxUtil.ajaxServiceData(newSearchParam)
+    .then(function (data) {
+      // console.log(data)
+      if (data === null) {
+        customerListRowData.value = []
+        messageBox.alertInfo(i18n.global.t('msg.nodata.found'))
+      } else {
+        customerListRowData.value = data
+        rowCounts.value = data.length
+      }
+    }).catch((error) => {
+      messageBox.alertAjaxError(error)
+    })
+}
+
+const nextSearch = () => {
+  gridPropsUtil.nextSearchRow(gridProps.gridApi.value, 'bsLonComCstService', 'LONCOMCST002', searchParam, rowCounts)
+}
+
+const allSearch = () => {
+  gridPropsUtil.allSearchRow(gridProps.gridApi.value, 'bsLonComCstService', 'LONCOMCST002', searchParam, rowCounts)
+}
+
+const getPopupRowDataCstNo = (event) => {
+  selectedPopupRowData.value = event[0]
+  searchParam.value.searchKeyword.value = selectedPopupRowData.value.customerNo
+  search()
+}
+
+const getPopupRowDataCstName = (event) => {
+  selectedPopupRowData.value = event[0]
+  searchParam.value.searchKeyword.value = selectedPopupRowData.value.customerName
+  search()
+}
+
+const searchParam = ref({
+  searchCriteria: {
+    value: searchCriteria[0].code,
+    required: false,
+    description: i18n.global.t('label.view.searchItem')
+  },
+  searchKeyword: {
+    value: ''
+  },
+  fetchSize: {
+    value: 100,
+    initValue: 100,
+    required: false
+  },
+  maxValue: {
+    value: '0',
+    initValue: '0',
+    required: false,
+    description: ''
+  }
+})
+
+const clearGrid = () => {
+  searchParam.value.searchKeyword.value = ''
+  searchParam.value.fetchSize.value = 100
+  searchParam.value.maxValue.value = '0'
+  rowCounts.value = 0
+  customerListRowData.value = []
+}
+
+watch(() => searchParam.value.searchCriteria.value, () => {
+  searchParam.value.searchKeyword.value = ''
+})
+
+watchEffect(() => {
+  // obj.model에 검색창 생성객체 내 해당 dropdown의 model명 입력
+  // prop.dropdownList = '해당 model에 들어가야할 codeList 입력'
+  if (commonCodeList.searchCriteriaList.length > 0) {
+    topSearchPaneObject.value.filter(obj => obj.model === 'searchCriteria').forEach(prop => { prop.dropdownList = commonCodeList.searchCriteriaList })
+  }
+})
+
+onMounted(() => {
+  saveDisableFlag.value = true
+})
+
+/* =======================================================
+    6. Freeform Object
+======================================================= */
+const formParam = ref({
+  transactionMode: {
+    value: 'INQUIRY',
+    required: true
+  },
+  customerNo: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.customer')
+  },
+  customerName: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.customer')
+  },
+  transactionType: {
+    value: 'NORMAL',
+    required: true,
+    description: i18n.global.t('label.view.transactionType')
+  },
+  customerType: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.objt.customerTypeCode')
+  },
+  customerDetailType: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.customerDetailType')
+  },
+  creditRate: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.creditRating')
+  },
+  evaluationDate: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.objt.evaluationDate')
+  },
+  releaseDate: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.objt.releaseDate')
+  },
+  expireDate: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.objt.expireDate')
+  },
+  rmk: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.remark')
+  },
+  pastRmk: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.remark')
+  },
+  serialNo: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.objt.serialNo')
+  },
+  businessDate: {
+    value: dayjs(fromDate).format(commonProp.dateformat.dateType),
+    initValue: dayjs(fromDate).format(commonProp.dateformat.dateType),
+    required: false
+  },
+  sysOrganizationCode: {
+    value: session.sysOrganizationCode,
+    required: false
+  },
+  sysDateTime: {
+    value: dayjs(fromDate).format(commonProp.dateformat.dateType),
+    required: false
+  },
+  sysUserId: {
+    value: session.sysUserId,
+    required: false
+  },
+  manageBrcd: {
+    value: session.sysBranchCode,
+    required: false
+  },
+  manageEmployeeNo: {
+    value: session.sysEmployeeNo,
+    required: false
+  },
+  customerTypeCode: {
+    value: '',
+    required: false
+  },
+  customerDetailTypeCode: {
+    value: '',
+    required: false
+  }
+})
+const resultParam = ref({
+  creditRate: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.creditRating')
+  },
+  evaluationDate: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.objt.evaluationDate')
+  },
+  expireDate: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.objt.expireDate')
+  },
+  rmk: {
+    value: '',
+    required: true,
+    description: i18n.global.t('label.view.remark')
+  }
+})
+const creditRateList = ref([
+  '01', '02', '03', '04', '05', '06', '07', '08', '09', '10'
+])
+const trxnModeDisableFlag = ref({
+  newRadio: {
+    value: false,
+    type: Boolean
+  },
+  inquiryRadio: {
+    value: false,
+    type: Boolean
+  },
+  updateRadio: {
+    value: true,
+    type: Boolean
+  },
+  deleteRadio: {
+    value: true,
+    type: Boolean
+  }
+})
+const saveDisableFlag = ref({
+  value: true,
+  type: Boolean
+})
+const trxnTypeDisableFlag = ref({
+  normalRadio: {
+    value: true,
+    type: Boolean
+  },
+  releaseRadio: {
+    value: true,
+    type: Boolean
+  }
+})
+const optionalFlag = ref({
+  creditRate: {
+    value: true,
+    type: Boolean
+  },
+  evaluationDate: {
+    value: true,
+    type: Boolean
+  },
+  releaseDate: {
+    value: true,
+    type: Boolean
+  },
+  expireDate: {
+    value: true,
+    type: Boolean
+  },
+  rmk: {
+    value: true,
+    type: Boolean
+  }
+})
+
+/* =======================================================
+    7. Freeform Function
+======================================================= */
+const searchCustomerInfo = () => {
+  // console.log('searchCustomerInfo')
+  const newSearchParam = commonUtil.inputValueToJson('bsLonComCstService', 'LONCOMCST012', formParam)
+  ajaxUtil.ajaxServiceData(newSearchParam)
+    .then(function (data) {
+      // console.log(data)
+      if (data === null) {
+        // messageBox.alertInfo(i18n.global.t('msg.nodata.found'))
+      } else {
+        formParam.value.customerNo.value = data.customerNo
+        formParam.value.customerName.value = data.customerName
+        formParam.value.customerType.value = data.customerTypeCode
+        formParam.value.customerDetailType.value = data.customerDetailTypeCode
+        formParam.value.customerTypeCode.value = data.customerTypeCode
+        formParam.value.customerDetailTypeCode.value = data.customerDetailTypeCode
+      }
+    }).catch((error) => {
+      messageBox.alertAjaxError(error)
+    })
+}
+// const searchCustomerDetail = () => {
+//   console.log('searchCustomerDetail')
+//   const newSearchParam = commonUtil.inputValueToJson('bsLonComCstService', 'LONCOMCST022', formParam)
+//   ajaxUtil.ajaxServiceData(newSearchParam)
+//     .then(function (data) {
+//       if (data === null) {
+//         formParam.value.creditRate.value = ''
+//         formParam.value.evaluationDate.value = ''
+//         formParam.value.releaseDate.value = ''
+//         formParam.value.expireDate.value = ''
+//         formParam.value.serialNo.value = ''
+//       } else {
+//         if (formParam.value.transactionMode.value === 'NEW') {
+//           formParam.value.creditRate.value = ''
+//           formParam.value.evaluationDate.value = formParam.value.businessDate.value
+//           formParam.value.releaseDate.value = ''
+//           formParam.value.expireDate.value = ''
+//           formParam.value.serialNo.value = data.serialNo
+//           console.log('serialNo: ' + formParam.value.serialNo.value)
+//         } else {
+//           formParam.value.creditRate.value = data.creditRate
+//           formParam.value.evaluationDate.value = data.evaluationDate
+//           formParam.value.expireDate.value = data.expireDate
+//           formParam.value.serialNo.value = data.serialNo
+//           resultParam.value.creditRate.value = data.creditRate
+//           resultParam.value.evaluationDate.value = data.evaluationDate
+//           resultParam.value.expireDate.value = data.expireDate
+//           trxnModeDisableFlag.value.updateRadio.value = false
+//           trxnModeDisableFlag.value.deleteRadio.value = false
+//         }
+//       }
+//     }).catch((error) => {
+//       messageBox.alertAjaxError(error)
+//     })
+// }
+const searchCustomerHistory = () => {
+  // console.log('searchCustomerHistory')
+  const newSearchParam = commonUtil.inputValueToJson('bsLonComCstService', 'LONCOMCST032', formParam)
+  ajaxUtil.ajaxServiceData(newSearchParam)
+    .then(function (data) {
+      if (data === null) {
+        clearHistory()
+        formParam.value.transactionType.value = 'NORMAL'
+        formParam.value.creditRate.value = ''
+        formParam.value.evaluationDate.value = ''
+        formParam.value.releaseDate.value = ''
+        formParam.value.expireDate.value = ''
+        formParam.value.rmk.value = ''
+        formParam.value.serialNo.value = ''
+      } else {
+        clearHistory()
+        if (formParam.value.transactionMode.value === 'NEW') {
+          historyRowData.value = data
+          formParam.value.transactionType.value = 'NORMAL'
+          formParam.value.creditRate.value = ''
+          formParam.value.evaluationDate.value = formParam.value.businessDate.value
+          formParam.value.releaseDate.value = ''
+          formParam.value.expireDate.value = ''
+          formParam.value.rmk.value = ''
+          if (data[0].transactionType === 'Normal') {
+            formParam.value.serialNo.value = data[0].serialNo
+            formParam.value.pastRmk.value = data[0].rmk
+          } else if (data[0].transactionType === 'Released') {
+            formParam.value.serialNo.value = ''
+          }
+        } else {
+          historyRowData.value = data
+          formParam.value.creditRate.value = data[0].creditRate
+          formParam.value.evaluationDate.value = data[0].evaluationDate
+          formParam.value.releaseDate.value = data[0].releaseDate
+          formParam.value.expireDate.value = data[0].expireDate
+          formParam.value.rmk.value = data[0].rmk
+          formParam.value.serialNo.value = data[0].serialNo
+          resultParam.value.creditRate.value = data[0].creditRate
+          resultParam.value.evaluationDate.value = data[0].evaluationDate
+          resultParam.value.expireDate.value = data[0].expireDate
+          resultParam.value.rmk.value = data[0].rmk
+          if (data[0].transactionType === 'Normal') {
+            formParam.value.transactionType.value = 'NORMAL'
+            trxnModeDisableFlag.value.updateRadio.value = false
+            trxnModeDisableFlag.value.deleteRadio.value = false
+          } else if (data[0].transactionType === 'Released') {
+            formParam.value.transactionType.value = 'RELEASE'
+            trxnModeDisableFlag.value.updateRadio.value = true
+            trxnModeDisableFlag.value.deleteRadio.value = true
+          }
+        }
+      }
+    }).catch((error) => {
+      messageBox.alertAjaxError(error)
+    })
+}
+const selectCustomer = (event) => {
+  clearForm()
+  formParam.value.transactionMode.value = 'INQUIRY'
+  formParam.value.customerNo.value = event.data.customerNo
+  searchCustomerInfo()
+  searchCustomerHistory()
+}
+const getCstPopupRowData = (event) => {
+  clearForm()
+  selectedPopupRowData.value = event[0]
+  formParam.value.customerNo.value = selectedPopupRowData.value.customerNo
+  searchCustomerInfo()
+  // searchCustomerDetail()
+  searchCustomerHistory()
+  if (formParam.value.transactionMode.value === 'NEW') {
+    setNormalOptionalFlag()
+    formParam.value.evaluationDate.value = formParam.value.businessDate.value
+  } else {
+    formParam.value.transactionMode.value = 'INQUIRY'
+    setDefaultOptionalFlag()
+  }
+}
+const updateTrxnMode = () => {
+  const transactionMode = formParam.value.transactionMode.value
+  formParam.value.transactionType.value = 'NORMAL'
+  if (transactionMode === 'NEW') {
+    clearForm()
+    clearHistory()
+    resultParam.value.creditRate.value = ''
+    resultParam.value.evaluationDate.value = ''
+    resultParam.value.expireDate.value = ''
+    resultParam.value.rmk.value = ''
+    // console.log('serialNo: ' + formParam.value.serialNo.value)
+  } else if (transactionMode === 'INQUIRY') {
+    if (resultParam.value.creditRate.value === '') {
+      clearForm()
+    }
+    formRestore()
+    formParam.value.rmk.value = resultParam.value.rmk.value
+    saveDisableFlag.value = true
+    trxnTypeDisableFlag.value.normalRadio.value = true
+    trxnTypeDisableFlag.value.releaseRadio.value = true
+    setDefaultOptionalFlag()
+  } else if (transactionMode === 'UPDATE') {
+    formRestore()
+    saveDisableFlag.value = true
+    trxnTypeDisableFlag.value.normalRadio.value = false
+    trxnTypeDisableFlag.value.releaseRadio.value = false
+    setNormalOptionalFlag()
+  } else if (transactionMode === 'DELETE') {
+    formRestore()
+    formParam.value.rmk.value = resultParam.value.rmk.value
+    saveDisableFlag.value = false
+    trxnTypeDisableFlag.value.normalRadio.value = true
+    trxnTypeDisableFlag.value.releaseRadio.value = true
+    setDefaultOptionalFlag()
+  }
+}
+const updateTrxnType = (event) => {
+  formRestore()
+  if (event === 'NORMAL') {
+    setNormalOptionalFlag()
+  } else if (event === 'RELEASE') {
+    setReleaseOptionalFlag()
+  }
+  formCheck()
+}
+const setDefaultOptionalFlag = () => {
+  optionalFlag.value.creditRate.value = true
+  optionalFlag.value.evaluationDate.value = true
+  optionalFlag.value.releaseDate.value = true
+  optionalFlag.value.expireDate.value = true
+  optionalFlag.value.rmk.value = true
+}
+const setNormalOptionalFlag = () => {
+  optionalFlag.value.creditRate.value = false
+  optionalFlag.value.evaluationDate.value = false
+  optionalFlag.value.releaseDate.value = true
+  optionalFlag.value.expireDate.value = false
+  optionalFlag.value.rmk.value = false
+}
+const setReleaseOptionalFlag = () => {
+  optionalFlag.value.creditRate.value = true
+  optionalFlag.value.evaluationDate.value = true
+  optionalFlag.value.releaseDate.value = false
+  optionalFlag.value.expireDate.value = true
+  optionalFlag.value.rmk.value = false
+}
+const formCheck = () => {
+  // Invalidd Date 일괄 빈 값으로 처리
+  if (formParam.value.evaluationDate.value === 'Invalid Date') {
+    formParam.value.evaluationDate.value = ''
+  }
+  if (formParam.value.releaseDate.value === 'Invalid Date') {
+    formParam.value.releaseDate.value = ''
+  }
+  if (formParam.value.expireDate.value === 'Invalid Date') {
+    formParam.value.expireDate.value = ''
+  }
+  if (resultParam.value.rmk.value === null) {
+    resultParam.value.rmk.value = ''
+  }
+  // 셋 중 하나라도 빈 값이면 Save 비활성화
+  if (formParam.value.creditRate.value === '' ||
+      formParam.value.evaluationDate.value === '' ||
+      formParam.value.expireDate.value === ''
+  ) {
+    saveDisableFlag.value = true
+  } else {
+    // 기존 값과 같으면 Save 비활성화
+    if (formParam.value.creditRate.value === resultParam.value.creditRate.value &&
+        formParam.value.evaluationDate.value === resultParam.value.evaluationDate.value &&
+        formParam.value.expireDate.value === resultParam.value.expireDate.value &&
+        formParam.value.rmk.value === resultParam.value.rmk.value
+    ) {
+      saveDisableFlag.value = true
+    } else {
+      // 값이 변경됐을 때 Save 활성화
+      saveDisableFlag.value = false
+    }
+    // release일 때
+    if (formParam.value.transactionType.value === 'RELEASE' && formParam.value.releaseDate.value === '') {
+      saveDisableFlag.value = true
+    } else if (formParam.value.transactionType.value === 'RELEASE' && formParam.value.releaseDate.value !== '') {
+      saveDisableFlag.value = false
+    }
+  }
+  // console.log('formCheck')
+  // console.log(formParam.value.rmk.value)
+  // console.log(resultParam.value.rmk.value)
+}
+const formRestore = () => {
+  formParam.value.creditRate.value = resultParam.value.creditRate.value
+  formParam.value.evaluationDate.value = resultParam.value.evaluationDate.value
+  formParam.value.releaseDate.value = ''
+  formParam.value.expireDate.value = resultParam.value.expireDate.value
+}
+const selectHistory = (event) => {
+  if (formParam.value.transactionMode.value !== 'NEW') {
+    // console.log(event.data)
+    formParam.value.creditRate.value = event.data.creditRate
+    formParam.value.evaluationDate.value = event.data.evaluationDate
+    formParam.value.releaseDate.value = event.data.releaseDate
+    formParam.value.expireDate.value = event.data.expireDate
+    formParam.value.rmk.value = event.data.rmk
+    formParam.value.serialNo.value = event.data.serialNo
+    resultParam.value.creditRate.value = event.data.creditRate
+    resultParam.value.evaluationDate.value = event.data.evaluationDate
+    resultParam.value.expireDate.value = event.data.expireDate
+    if (event.data.transactionType === 'Normal') {
+      formParam.value.transactionType.value = 'NORMAL'
+      trxnModeDisableFlag.value.updateRadio.value = false
+      trxnModeDisableFlag.value.deleteRadio.value = false
+    } else if (event.data.transactionType === 'Released') {
+      formParam.value.transactionType.value = 'RELEASE'
+      trxnModeDisableFlag.value.updateRadio.value = true
+      trxnModeDisableFlag.value.deleteRadio.value = true
+    }
+  }
+}
+const save = () => {
+  // console.log(formParam)
+  const transactionMode = formParam.value.transactionMode.value
+  if (transactionMode === 'NEW') {
+    // 기존 정보는 release 처리, 신규 정보 등록
+    if (formParam.value.serialNo.value !== '') {
+      formParam.value.transactionType.value = 'RELEASE'
+      formParam.value.releaseDate.value = dayjs(fromDate).format(commonProp.dateformat.dateType)
+    }
+    messageBox.confirm(i18n.global.t('msg.info.save')).onOk(() => {
+      // console.log(formParam)
+      const saveParam = commonUtil.inputValueToJson('bsLonComCstService', 'LONCOMCST009', formParam)
+      ajaxUtil.ajaxServiceCall(saveParam)
+        .then((response) => {
+          messageBox.alertAjaxSuccess(response).onOk(() => {
+            searchCustomerInfo()
+            searchCustomerHistory()
+            search()
+            formParam.value.transactionMode.value = 'INQUIRY'
+            setDefaultOptionalFlag()
+            trxnTypeDisableFlag.value.normalRadio.value = true
+            trxnTypeDisableFlag.value.releaseRadio.value = true
+          })
+        })
+        .catch((error) => {
+          messageBox.alertAjaxError(error).onOk(() => {
+          })
+        })
+    })
+  } else if (transactionMode === 'UPDATE') {
+    messageBox.confirm(i18n.global.t('msg.info.save')).onOk(() => {
+      const saveParam = commonUtil.inputValueToJson('bsLonComCstService', 'LONCOMCST003', formParam)
+      ajaxUtil.ajaxServiceCall(saveParam)
+        .then((response) => {
+          messageBox.alertAjaxSuccess(response).onOk(() => {
+            searchCustomerInfo()
+            searchCustomerHistory()
+            search()
+            formParam.value.transactionMode.value = 'INQUIRY'
+            setDefaultOptionalFlag()
+            trxnTypeDisableFlag.value.normalRadio.value = true
+            trxnTypeDisableFlag.value.releaseRadio.value = true
+          })
+        })
+        .catch((error) => {
+          messageBox.alertAjaxError(error).onOk(() => {
+          })
+        })
+    })
+  } else if (transactionMode === 'DELETE') {
+    messageBox.confirm(i18n.global.t('msg.info.delete')).onOk(() => {
+      const saveParam = commonUtil.inputValueToJson('bsLonComCstService', 'LONCOMCST004', formParam)
+      ajaxUtil.ajaxServiceCall(saveParam)
+        .then((response) => {
+          messageBox.alertAjaxSuccess(response).onOk(() => {
+            searchCustomerInfo()
+            searchCustomerHistory()
+            search()
+            formParam.value.transactionMode.value = 'INQUIRY'
+            setDefaultOptionalFlag()
+            trxnTypeDisableFlag.value.normalRadio.value = true
+            trxnTypeDisableFlag.value.releaseRadio.value = true
+          })
+        })
+        .catch((error) => {
+          messageBox.alertAjaxError(error).onOk(() => {
+          })
+        })
+    })
+  }
+}
+const clearForm = () => {
+  saveDisableFlag.value = true
+  trxnModeDisableFlag.value.updateRadio.value = true
+  trxnModeDisableFlag.value.deleteRadio.value = true
+  trxnTypeDisableFlag.value.normalRadio.value = true
+  trxnTypeDisableFlag.value.releaseRadio.value = true
+  optionalFlag.value.creditRate.value = true
+  optionalFlag.value.evaluationDate.value = true
+  optionalFlag.value.releaseDate.value = true
+  optionalFlag.value.expireDate.value = true
+  optionalFlag.value.rmk.value = true
+
+  formParam.value.customerNo.value = ''
+  formParam.value.customerName.value = ''
+  formParam.value.transactionType.value = 'NORMAL'
+  formParam.value.customerType.value = ''
+  formParam.value.customerTypeCode.value = ''
+  formParam.value.customerDetailType.value = ''
+  formParam.value.customerDetailTypeCode.value = ''
+  formParam.value.creditRate.value = ''
+  formParam.value.evaluationDate.value = ''
+  formParam.value.releaseDate.value = ''
+  formParam.value.expireDate.value = ''
+  formParam.value.serialNo.value = ''
+  formParam.value.rmk.value = ''
+}
+const clearHistory = () => {
+  historyRowData.value = []
+}
+</script>
+<style scoped>
+.box-section+.box-section {
+  margin-top: 34px;
+}
+.double_table_container {
+  margin: 0 30px;
+}
+.form_customer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.form_customer > .help_button_simple {
+  position: absolute;
+  right: 8px;
+}
+.subtitle {
+  margin-bottom: 7px;
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.radio_wrapper.box {
+  display: flex;
+  gap: 20px;
+  padding: 8.5px 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+.radio_wrapper.box > .q-radio {
+  flex: 1;
+}
+.wide {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+</style>

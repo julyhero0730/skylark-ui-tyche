@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>btn-ctl-play</title>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="skylark-icon" transform="translate(-1727.000000, -238.000000)">
+            <g id="btn-ctl-play" transform="translate(1727.000000, 238.000000)">
+                <path d="M35.5,0.5 L35.5,35.5 L4,35.5 C3.03350169,35.5 2.15850169,35.1082492 1.52512627,34.4748737 C0.891750844,33.8414983 0.5,32.9664983 0.5,32 L0.5,32 L0.5,4 C0.5,3.03350169 0.891750844,2.15850169 1.52512627,1.52512627 C2.15850169,0.891750844 3.03350169,0.5 4,0.5 L4,0.5 L35.5,0.5 Z" id="Rectangle-2-Copy-6" stroke="#C1C4D4" fill="#FFFFFF"></path>
+                <g id="Group" transform="translate(6.000000, 6.000000)" fill="#5156BE">
+                    <g id="Path" transform="translate(3.000000, 3.000000)">
+                        <polygon points="6 14 6 4 15 9"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <rect fill="none" width="32" height="32" rx="4"/>
+        <g stroke="#7974C3" stroke-width="1.4">
+            <path d="M24 21.5H14M24 16.5H14M24 11.5H14"/>
+            <g>
+                <path d="M11 21.5H9M11 16.5H9M11 11.5H9"/>
+            </g>
+        </g>
+    </g>
+</svg>

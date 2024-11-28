@@ -1,0 +1,2665 @@
+@import url('skylark-ui-lib/style.css');
+
+.height100 { height: 100vh; }
+.height99 { height: 99vh; }
+.height98 { height: 98vh; }
+.height97 { height: 97vh; }
+.height96 { height: 96vh; }
+.height95 { height: 95vh; }
+.height94 { height: 94vh; }
+.height93 { height: 93vh; }
+.height92 { height: 92vh; }
+.height91 { height: 91vh; }
+.height90 { height: 90vh; }
+.height89 { height: 89vh; }
+.height88 { height: 88vh; }
+.height87 { height: 87vh; }
+.height86 { height: 86vh; }
+.height85 { height: 85vh; }
+.height84 { height: 84vh; }
+.height83 { height: 83vh; }
+.height82 { height: 82vh; }
+.height81 { height: 81vh; }
+.height80 { height: 80vh; }
+.height79 { height: 79vh; }
+.height78 { height: 78vh; }
+.height77 { height: 77vh; }
+.height76 { height: 76vh; }
+.height75 { height: 75vh; }
+.height74 { height: 74vh; }
+.height73 { height: 73vh; }
+.height72 { height: 72vh; }
+.height71 { height: 71vh; }
+.height70 { height: 70vh; }
+.height69 { height: 69vh; }
+.height68 { height: 68vh; }
+.height67 { height: 67vh; }
+.height66 { height: 66vh; }
+.height65 { height: 65vh; }
+.height64 { height: 64vh; }
+.height63 { height: 63vh; }
+.height62 { height: 62vh; }
+.height61 { height: 61vh; }
+.height60 { height: 60vh; }
+.height59 { height: 59vh; }
+.height58 { height: 58vh; }
+.height57 { height: 57vh; }
+.height56 { height: 56vh; }
+.height55 { height: 55vh; }
+.height54 { height: 54vh; }
+.height53 { height: 53vh; }
+.height52 { height: 52vh; }
+.height51 { height: 51vh; }
+.height50 { height: 50vh; }
+.height49 { height: 49vh; }
+.height48 { height: 48vh; }
+.height47 { height: 47vh; }
+.height46 { height: 46vh; }
+.height45 { height: 45vh; }
+.height44 { height: 44vh; }
+.height43 { height: 43vh; }
+.height42 { height: 42vh; }
+.height41 { height: 41vh; }
+.height40 { height: 40vh; }
+.height39 { height: 39vh; }
+.height38 { height: 38vh; }
+.height37 { height: 37vh; }
+.height36 { height: 36vh; }
+.height35 { height: 35vh; }
+.height34 { height: 34vh; }
+.height33 { height: 33vh; }
+.height32 { height: 32vh; }
+.height31 { height: 31vh; }
+.height30 { height: 30vh; }
+.height29 { height: 29vh; }
+.height28 { height: 28vh; }
+.height27 { height: 27vh; }
+.height26 { height: 26vh; }
+.height25 { height: 25vh; }
+.height24 { height: 24vh; }
+.height23 { height: 23vh; }
+.height22 { height: 22vh; }
+.height21 { height: 21vh; }
+.height20 { height: 20vh; }
+.height19 { height: 19vh; }
+.height18 { height: 18vh; }
+.height17 { height: 17vh; }
+.height16 { height: 16vh; }
+.height15 { height: 15vh; }
+.height14 { height: 14vh; }
+.height13 { height: 13vh; }
+.height12 { height: 12vh; }
+.height11 { height: 11vh; }
+.height10 { height: 10vh; }
+.height09 { height: 9vh; }
+.height08 { height: 8vh; }
+.height07 { height: 7vh; }
+.height06 { height: 6vh; }
+.height05 { height: 5vh; }
+.height04 { height: 4vh; }
+.height03 { height: 3vh; }
+.height02 { height: 2vh; }
+.height01 { height: 1vh; }
+
+.width10 { min-width: 10%; width: 10% !important;}
+.width11 { min-width: 11%; width: 11% !important;}
+.width12 { min-width: 12%; width: 12% !important;}
+.width13 { min-width: 13%; width: 13% !important;}
+.width14 { min-width: 14%; width: 14% !important;}
+.width15 { min-width: 15%; width: 15% !important;}
+.width16 { min-width: 16%; width: 16% !important;}
+.width17 { min-width: 17%; width: 17% !important;}
+.width18 { min-width: 18%; width: 18% !important;}
+.width19 { min-width: 19%; width: 19% !important;}
+.width20 { min-width: 20%; width: 20% !important;}
+.width21 { min-width: 21%; width: 21% !important;}
+.width22 { min-width: 22%; width: 22% !important;}
+.width23 { min-width: 23%; width: 23% !important;}
+.width24 { min-width: 24%; width: 24% !important;}
+.width25 { min-width: 25%; width: 25% !important;}
+.width26 { min-width: 26%; width: 26% !important;}
+.width27 { min-width: 27%; width: 27% !important;}
+.width28 { min-width: 28%; width: 28% !important;}
+.width29 { min-width: 29%; width: 29% !important;}
+.width30 { min-width: 30%; width: 30% !important;}
+.width31 { min-width: 31%; width: 31% !important;}
+.width32 { min-width: 32%; width: 32% !important;}
+.width33 { min-width: 33%; width: 33% !important;}
+.width34 { min-width: 34%; width: 34% !important;}
+.width35 { min-width: 35%; width: 35% !important;}
+.width36 { min-width: 36%; width: 36% !important;}
+.width37 { min-width: 37%; width: 37% !important;}
+.width38 { min-width: 38%; width: 38% !important;}
+.width39 { min-width: 39%; width: 39% !important;}
+.width40 { min-width: 40%; width: 40% !important;}
+.width41 { min-width: 41%; width: 41% !important;}
+.width42 { min-width: 42%; width: 42% !important;}
+.width43 { min-width: 43%; width: 43% !important;}
+.width44 { min-width: 44%; width: 44% !important;}
+.width45 { min-width: 45%; width: 45% !important;}
+.width46 { min-width: 46%; width: 46% !important;}
+.width47 { min-width: 47%; width: 47% !important;}
+.width48 { min-width: 48%; width: 48% !important;}
+.width49 { min-width: 49%; width: 49% !important;}
+.width50 { min-width: 50%; width: 50% !important;}
+.width51 { min-width: 51%; width: 51% !important;}
+.width52 { min-width: 52%; width: 52% !important;}
+.width53 { min-width: 53%; width: 53% !important;}
+.width54 { min-width: 54%; width: 54% !important;}
+.width55 { min-width: 55%; width: 55% !important;}
+.width56 { min-width: 56%; width: 56% !important;}
+.width57 { min-width: 57%; width: 57% !important;}
+.width58 { min-width: 58%; width: 58% !important;}
+.width59 { min-width: 59%; width: 59% !important;}
+.width60 { min-width: 60%; width: 60% !important;}
+.width61 { min-width: 61%; width: 61% !important;}
+.width62 { min-width: 62%; width: 62% !important;}
+.width63 { min-width: 63%; width: 63% !important;}
+.width64 { min-width: 64%; width: 64% !important;}
+.width65 { min-width: 65%; width: 65% !important;}
+.width66 { min-width: 66%; width: 66% !important;}
+.width67 { min-width: 67%; width: 67% !important;}
+.width68 { min-width: 68%; width: 68% !important;}
+.width69 { min-width: 69%; width: 69% !important;}
+.width70 { min-width: 70%; width: 70% !important;}
+.width71 { min-width: 71%; width: 71% !important;}
+.width72 { min-width: 72%; width: 72% !important;}
+.width73 { min-width: 73%; width: 73% !important;}
+.width74 { min-width: 74%; width: 74% !important;}
+.width75 { min-width: 75%; width: 75% !important;}
+.width76 { min-width: 76%; width: 76% !important;}
+.width77 { min-width: 77%; width: 77% !important;}
+.width78 { min-width: 78%; width: 78% !important;}
+.width79 { min-width: 79%; width: 79% !important;}
+.width80 { min-width: 80%; width: 80% !important;}
+.width81 { min-width: 81%; width: 81% !important;}
+.width82 { min-width: 82%; width: 82% !important;}
+.width83 { min-width: 83%; width: 83% !important;}
+.width84 { min-width: 84%; width: 84% !important;}
+.width85 { min-width: 85%; width: 85% !important;}
+.width86 { min-width: 86%; width: 86% !important;}
+.width87 { min-width: 87%; width: 87% !important;}
+.width88 { min-width: 88%; width: 88% !important;}
+.width89 { min-width: 89%; width: 89% !important;}
+.width90 { min-width: 90%; width: 90% !important;}
+.width91 { min-width: 91%; width: 91% !important;}
+.width92 { min-width: 92%; width: 92% !important;}
+.width93 { min-width: 93%; width: 93% !important;}
+.width94 { min-width: 94%; width: 94% !important;}
+.width95 { min-width: 95%; width: 95% !important;}
+.width96 { min-width: 96%; width: 96% !important;}
+.width97 { min-width: 97%; width: 97% !important;}
+.width98 { min-width: 98%; width: 98% !important;}
+.width99 { min-width: 99%; width: 99% !important;}
+.width100 { min-width: 100%; width: 100% !important;}
+
+.tab_content {
+  height: 630px !important;
+}
+
+.tab_content_2 {
+  height: 575px !important;
+}
+
+.tab_content_3 {
+  width: 100%;
+  height: 570px;
+  overflow: auto;
+}
+
+.tab_content_4 {
+    height: 520px !important;
+  }
+
+.tab_container_1 {
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  overflow: auto;
+}
+
+.table_container_2 {
+  height: 670px !important;
+}
+
+.tab_content .msg_info_form_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  height: 460px;
+}
+
+.sql_wrapper .sql_box {
+  margin-top: 18px;
+  border: solid 1px #eaeff8;
+  min-height: 730px;
+}
+
+.main .msg_info_form_box {
+  max-height: 570px;
+  display: grid;
+  gap: 20px 30px;
+  grid-template-columns: 1fr 1fr;
+  padding: 24px 0 0;
+  overflow: auto;
+}
+
+.main .msg_info_form_triple_box {
+  max-height: 600px;
+  display: grid;
+  gap: 20px 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: auto;
+}
+
+.main .double_table_container .table_container_2 {
+  box-shadow: none;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 25px 25px 25px;
+  /* 2023-05-30 */
+  flex-basis: 25%;
+  overflow: auto;
+  max-height: 678px;
+}
+
+.main .double_table_container_11 .table_container_2 {
+  box-shadow: none;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 25px 25px 25px;
+  /* 2023-05-30 */
+  flex-basis: 25%;
+  overflow: auto;
+  max-height: 678px;
+}
+
+.tab_content .double_table_container_3 {
+  max-height: 678px;
+}
+
+.divHeight150 {
+  max-height: 150px;
+}
+
+.scroll-class {
+  height: 300px;
+}
+
+.scrollable-content {
+  width: 100%;
+  height: 300px;
+  overflow-y: auto;
+}
+.containerWidth10 {
+  width: 10vw !important;
+}
+
+.containerWidth15 {
+  width: 15vw !important;
+}
+
+.containerWidth20 {
+  width: 20vw !important;
+}
+
+.containerWidth25 {
+  width: 25vw !important;
+}
+
+.containerWidth30 {
+  width: 30vw !important;
+}
+
+.containerWidth35 {
+  width: 35vw !important;
+}
+
+.containerWidth40 {
+  width: 40vw !important;
+}
+
+.containerWidth45 {
+  width: 45vw !important;
+}
+
+.containerWidth50 {
+  width: 50vw !important;
+}
+
+.containerWidth55 {
+  width: 55vw !important;
+}
+
+.containerWidth60 {
+  width: 60vw !important;
+}
+
+.containerWidth65 {
+  width: 65vw !important;
+}
+
+.containerWidth70 {
+  width: 70vw !important;
+}
+
+.containerWidth75 {
+  width: 75vw !important;
+}
+
+.containerWidth80 {
+  width: 80vw !important;
+}
+
+.containerWidth85 {
+  width: 85vw !important;
+}
+
+.containerWidth90 {
+  width: 90vw !important;
+}
+
+.containerWidth95 {
+  width: 95vw !important;
+}
+
+.tab_content > .table_scroll_box {
+  .height90 { height : calc(90vh - #{$tabContainer1Height} ) }
+  .height89 { height : calc(89vh - #{$tabContainer1Height} ) }
+  .height88 { height : calc(88vh - #{$tabContainer1Height} ) }
+  .height87 { height : calc(87vh - #{$tabContainer1Height} ) }
+  .height86 { height : calc(86vh - #{$tabContainer1Height} ) }
+  .height85 { height : calc(85vh - #{$tabContainer1Height} ) }
+  .height84 { height : calc(84vh - #{$tabContainer1Height} ) }
+  .height83 { height : calc(83vh - #{$tabContainer1Height} ) }
+  .height82 { height : calc(82vh - #{$tabContainer1Height} ) }
+  .height81 { height : calc(81vh - #{$tabContainer1Height} ) }
+  .height80 { height : calc(80vh - #{$tabContainer1Height} ) }
+  .height79 { height : calc(79vh - #{$tabContainer1Height} ) }
+  .height78 { height : calc(78vh - #{$tabContainer1Height} ) }
+  .height77 { height : calc(77vh - #{$tabContainer1Height} ) }
+  .height76 { height : calc(76vh - #{$tabContainer1Height} ) }
+  .height75 { height : calc(75vh - #{$tabContainer1Height} ) }
+  .height74 { height : calc(74vh - #{$tabContainer1Height} ) }
+  .height73 { height : calc(73vh - #{$tabContainer1Height} ) }
+  .height72 { height : calc(72vh - #{$tabContainer1Height} ) }
+  .height71 { height : calc(71vh - #{$tabContainer1Height} ) }
+  .height70 { height : calc(70vh - #{$tabContainer1Height} ) }
+  .height69 { height : calc(69vh - #{$tabContainer1Height} ) }
+  .height68 { height : calc(68vh - #{$tabContainer1Height} ) }
+  .height67 { height : calc(67vh - #{$tabContainer1Height} ) }
+  .height66 { height : calc(66vh - #{$tabContainer1Height} ) }
+  .height65 { height : calc(65vh - #{$tabContainer1Height} ) }
+  .height64 { height : calc(64vh - #{$tabContainer1Height} ) }
+  .height63 { height : calc(63vh - #{$tabContainer1Height} ) }
+  .height62 { height : calc(62vh - #{$tabContainer1Height} ) }
+  .height61 { height : calc(61vh - #{$tabContainer1Height} ) }
+  .height60 { height : calc(60vh - #{$tabContainer1Height} ) }
+  .height59 { height : calc(59vh - #{$tabContainer1Height} ) }
+  .height58 { height : calc(58vh - #{$tabContainer1Height} ) }
+  .height57 { height : calc(57vh - #{$tabContainer1Height} ) }
+  .height56 { height : calc(56vh - #{$tabContainer1Height} ) }
+  .height55 { height : calc(55vh - #{$tabContainer1Height} ) }
+  .height54 { height : calc(54vh - #{$tabContainer1Height} ) }
+  .height53 { height : calc(53vh - #{$tabContainer1Height} ) }
+  .height52 { height : calc(52vh - #{$tabContainer1Height} ) }
+  .height51 { height : calc(51vh - #{$tabContainer1Height} ) }
+  .height50 { height : calc(50vh - #{$tabContainer1Height} ) }
+  .height49 { height : calc(49vh - #{$tabContainer1Height} ) }
+  .height48 { height : calc(48vh - #{$tabContainer1Height} ) }
+  .height47 { height : calc(47vh - #{$tabContainer1Height} ) }
+  .height46 { height : calc(46vh - #{$tabContainer1Height} ) }
+  .height45 { height : calc(45vh - #{$tabContainer1Height} ) }
+  .height44 { height : calc(44vh - #{$tabContainer1Height} ) }
+  .height43 { height : calc(43vh - #{$tabContainer1Height} ) }
+  .height42 { height : calc(42vh - #{$tabContainer1Height} ) }
+  .height41 { height : calc(41vh - #{$tabContainer1Height} ) }
+  .height40 { height : calc(40vh - #{$tabContainer1Height} ) }
+  .height39 { height : calc(39vh - #{$tabContainer1Height} ) }
+  .height38 { height : calc(38vh - #{$tabContainer1Height} ) }
+  .height37 { height : calc(37vh - #{$tabContainer1Height} ) }
+  .height36 { height : calc(36vh - #{$tabContainer1Height} ) }
+  .height35 { height : calc(35vh - #{$tabContainer1Height} ) }
+  .height34 { height : calc(34vh - #{$tabContainer1Height} ) }
+  .height33 { height : calc(33vh - #{$tabContainer1Height} ) }
+  .height32 { height : calc(32vh - #{$tabContainer1Height} ) }
+  .height31 { height : calc(31vh - #{$tabContainer1Height} ) }
+  .height30 { height : calc(30vh - #{$tabContainer1Height} ) }
+  .height29 { height : calc(29vh - #{$tabContainer1Height} ) }
+  .height28 { height : calc(28vh - #{$tabContainer1Height} ) }
+  .height27 { height : calc(27vh - #{$tabContainer1Height} ) }
+  .height26 { height : calc(26vh - #{$tabContainer1Height} ) }
+  .height25 { height : calc(25vh - #{$tabContainer1Height} ) }
+  .height24 { height : calc(24vh - #{$tabContainer1Height} ) }
+  .height23 { height : calc(23vh - #{$tabContainer1Height} ) }
+  .height22 { height : calc(22vh - #{$tabContainer1Height} ) }
+  .height21 { height : calc(21vh - #{$tabContainer1Height} ) }
+  .height20 { height : calc(20vh - #{$tabContainer1Height} ) }
+  .height19 { height : calc(19vh - #{$tabContainer1Height} ) }
+  .height18 { height : calc(18vh - #{$tabContainer1Height} ) }
+  .height17 { height : calc(17vh - #{$tabContainer1Height} ) }
+  .height16 { height : calc(16vh - #{$tabContainer1Height} ) }
+  .height15 { height : calc(15vh - #{$tabContainer1Height} ) }
+  .height14 { height : calc(14vh - #{$tabContainer1Height} ) }
+  .height13 { height : calc(13vh - #{$tabContainer1Height} ) }
+  .height12 { height : calc(12vh - #{$tabContainer1Height} ) }
+  .height11 { height : calc(11vh - #{$tabContainer1Height} ) }
+  .height10 { height : calc(10vh - #{$tabContainer1Height} ) }
+}
+
+.tab_content:has(> .table_top_button_wrapper) > .table_scroll_box ,
+.tab_content .msg_info_form_box_2 .table_scroll_box
+{
+  .height90 { height : calc(90vh - #{$tabContainer1Height_1} ) }
+  .height89 { height : calc(89vh - #{$tabContainer1Height_1} ) }
+  .height88 { height : calc(88vh - #{$tabContainer1Height_1} ) }
+  .height87 { height : calc(87vh - #{$tabContainer1Height_1} ) }
+  .height86 { height : calc(86vh - #{$tabContainer1Height_1} ) }
+  .height85 { height : calc(85vh - #{$tabContainer1Height_1} ) }
+  .height84 { height : calc(84vh - #{$tabContainer1Height_1} ) }
+  .height83 { height : calc(83vh - #{$tabContainer1Height_1} ) }
+  .height82 { height : calc(82vh - #{$tabContainer1Height_1} ) }
+  .height81 { height : calc(81vh - #{$tabContainer1Height_1} ) }
+  .height80 { height : calc(80vh - #{$tabContainer1Height_1} ) }
+  .height79 { height : calc(79vh - #{$tabContainer1Height_1} ) }
+  .height78 { height : calc(78vh - #{$tabContainer1Height_1} ) }
+  .height77 { height : calc(77vh - #{$tabContainer1Height_1} ) }
+  .height76 { height : calc(76vh - #{$tabContainer1Height_1} ) }
+  .height75 { height : calc(75vh - #{$tabContainer1Height_1} ) }
+  .height74 { height : calc(74vh - #{$tabContainer1Height_1} ) }
+  .height73 { height : calc(73vh - #{$tabContainer1Height_1} ) }
+  .height72 { height : calc(72vh - #{$tabContainer1Height_1} ) }
+  .height71 { height : calc(71vh - #{$tabContainer1Height_1} ) }
+  .height70 { height : calc(70vh - #{$tabContainer1Height_1} ) }
+  .height69 { height : calc(69vh - #{$tabContainer1Height_1} ) }
+  .height68 { height : calc(68vh - #{$tabContainer1Height_1} ) }
+  .height67 { height : calc(67vh - #{$tabContainer1Height_1} ) }
+  .height66 { height : calc(66vh - #{$tabContainer1Height_1} ) }
+  .height65 { height : calc(65vh - #{$tabContainer1Height_1} ) }
+  .height64 { height : calc(64vh - #{$tabContainer1Height_1} ) }
+  .height63 { height : calc(63vh - #{$tabContainer1Height_1} ) }
+  .height62 { height : calc(62vh - #{$tabContainer1Height_1} ) }
+  .height61 { height : calc(61vh - #{$tabContainer1Height_1} ) }
+  .height60 { height : calc(60vh - #{$tabContainer1Height_1} ) }
+  .height59 { height : calc(59vh - #{$tabContainer1Height_1} ) }
+  .height58 { height : calc(58vh - #{$tabContainer1Height_1} ) }
+  .height57 { height : calc(57vh - #{$tabContainer1Height_1} ) }
+  .height56 { height : calc(56vh - #{$tabContainer1Height_1} ) }
+  .height55 { height : calc(55vh - #{$tabContainer1Height_1} ) }
+  .height54 { height : calc(54vh - #{$tabContainer1Height_1} ) }
+  .height53 { height : calc(53vh - #{$tabContainer1Height_1} ) }
+  .height52 { height : calc(52vh - #{$tabContainer1Height_1} ) }
+  .height51 { height : calc(51vh - #{$tabContainer1Height_1} ) }
+  .height50 { height : calc(50vh - #{$tabContainer1Height_1} ) }
+  .height49 { height : calc(49vh - #{$tabContainer1Height_1} ) }
+  .height48 { height : calc(48vh - #{$tabContainer1Height_1} ) }
+  .height47 { height : calc(47vh - #{$tabContainer1Height_1} ) }
+  .height46 { height : calc(46vh - #{$tabContainer1Height_1} ) }
+  .height45 { height : calc(45vh - #{$tabContainer1Height_1} ) }
+  .height44 { height : calc(44vh - #{$tabContainer1Height_1} ) }
+  .height43 { height : calc(43vh - #{$tabContainer1Height_1} ) }
+  .height42 { height : calc(42vh - #{$tabContainer1Height_1} ) }
+  .height41 { height : calc(41vh - #{$tabContainer1Height_1} ) }
+  .height40 { height : calc(40vh - #{$tabContainer1Height_1} ) }
+  .height39 { height : calc(39vh - #{$tabContainer1Height_1} ) }
+  .height38 { height : calc(38vh - #{$tabContainer1Height_1} ) }
+  .height37 { height : calc(37vh - #{$tabContainer1Height_1} ) }
+  .height36 { height : calc(36vh - #{$tabContainer1Height_1} ) }
+  .height35 { height : calc(35vh - #{$tabContainer1Height_1} ) }
+  .height34 { height : calc(34vh - #{$tabContainer1Height_1} ) }
+  .height33 { height : calc(33vh - #{$tabContainer1Height_1} ) }
+  .height32 { height : calc(32vh - #{$tabContainer1Height_1} ) }
+  .height31 { height : calc(31vh - #{$tabContainer1Height_1} ) }
+  .height30 { height : calc(30vh - #{$tabContainer1Height_1} ) }
+  .height29 { height : calc(29vh - #{$tabContainer1Height_1} ) }
+  .height28 { height : calc(28vh - #{$tabContainer1Height_1} ) }
+  .height27 { height : calc(27vh - #{$tabContainer1Height_1} ) }
+  .height26 { height : calc(26vh - #{$tabContainer1Height_1} ) }
+  .height25 { height : calc(25vh - #{$tabContainer1Height_1} ) }
+  .height24 { height : calc(24vh - #{$tabContainer1Height_1} ) }
+  .height23 { height : calc(23vh - #{$tabContainer1Height_1} ) }
+  .height22 { height : calc(22vh - #{$tabContainer1Height_1} ) }
+  .height21 { height : calc(21vh - #{$tabContainer1Height_1} ) }
+  .height20 { height : calc(20vh - #{$tabContainer1Height_1} ) }
+  .height19 { height : calc(19vh - #{$tabContainer1Height_1} ) }
+  .height18 { height : calc(18vh - #{$tabContainer1Height_1} ) }
+  .height17 { height : calc(17vh - #{$tabContainer1Height_1} ) }
+  .height16 { height : calc(16vh - #{$tabContainer1Height_1} ) }
+  .height15 { height : calc(15vh - #{$tabContainer1Height_1} ) }
+  .height14 { height : calc(14vh - #{$tabContainer1Height_1} ) }
+  .height13 { height : calc(13vh - #{$tabContainer1Height_1} ) }
+  .height12 { height : calc(12vh - #{$tabContainer1Height_1} ) }
+  .height11 { height : calc(11vh - #{$tabContainer1Height_1} ) }
+  .height10 { height : calc(10vh - #{$tabContainer1Height_1} ) }
+}
+
+.tab_content .double_table_container .table_container .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer2Height} ) }
+    .height89 { height : calc(89vh - #{$tabContainer2Height} ) }
+    .height88 { height : calc(88vh - #{$tabContainer2Height} ) }
+    .height87 { height : calc(87vh - #{$tabContainer2Height} ) }
+    .height86 { height : calc(86vh - #{$tabContainer2Height} ) }
+    .height85 { height : calc(85vh - #{$tabContainer2Height} ) }
+    .height84 { height : calc(84vh - #{$tabContainer2Height} ) }
+    .height83 { height : calc(83vh - #{$tabContainer2Height} ) }
+    .height82 { height : calc(82vh - #{$tabContainer2Height} ) }
+    .height81 { height : calc(81vh - #{$tabContainer2Height} ) }
+    .height80 { height : calc(80vh - #{$tabContainer2Height} ) }
+    .height79 { height : calc(79vh - #{$tabContainer2Height} ) }
+    .height78 { height : calc(78vh - #{$tabContainer2Height} ) }
+    .height77 { height : calc(77vh - #{$tabContainer2Height} ) }
+    .height76 { height : calc(76vh - #{$tabContainer2Height} ) }
+    .height75 { height : calc(75vh - #{$tabContainer2Height} ) }
+    .height74 { height : calc(74vh - #{$tabContainer2Height} ) }
+    .height73 { height : calc(73vh - #{$tabContainer2Height} ) }
+    .height72 { height : calc(72vh - #{$tabContainer2Height} ) }
+    .height71 { height : calc(71vh - #{$tabContainer2Height} ) }
+    .height70 { height : calc(70vh - #{$tabContainer2Height} ) }
+    .height69 { height : calc(69vh - #{$tabContainer2Height} ) }
+    .height68 { height : calc(68vh - #{$tabContainer2Height} ) }
+    .height67 { height : calc(67vh - #{$tabContainer2Height} ) }
+    .height66 { height : calc(66vh - #{$tabContainer2Height} ) }
+    .height65 { height : calc(65vh - #{$tabContainer2Height} ) }
+    .height64 { height : calc(64vh - #{$tabContainer2Height} ) }
+    .height63 { height : calc(63vh - #{$tabContainer2Height} ) }
+    .height62 { height : calc(62vh - #{$tabContainer2Height} ) }
+    .height61 { height : calc(61vh - #{$tabContainer2Height} ) }
+    .height60 { height : calc(60vh - #{$tabContainer2Height} ) }
+    .height59 { height : calc(59vh - #{$tabContainer2Height} ) }
+    .height58 { height : calc(58vh - #{$tabContainer2Height} ) }
+    .height57 { height : calc(57vh - #{$tabContainer2Height} ) }
+    .height56 { height : calc(56vh - #{$tabContainer2Height} ) }
+    .height55 { height : calc(55vh - #{$tabContainer2Height} ) }
+    .height54 { height : calc(54vh - #{$tabContainer2Height} ) }
+    .height53 { height : calc(53vh - #{$tabContainer2Height} ) }
+    .height52 { height : calc(52vh - #{$tabContainer2Height} ) }
+    .height51 { height : calc(51vh - #{$tabContainer2Height} ) }
+    .height50 { height : calc(50vh - #{$tabContainer2Height} ) }
+    .height49 { height : calc(49vh - #{$tabContainer2Height} ) }
+    .height48 { height : calc(48vh - #{$tabContainer2Height} ) }
+    .height47 { height : calc(47vh - #{$tabContainer2Height} ) }
+    .height46 { height : calc(46vh - #{$tabContainer2Height} ) }
+    .height45 { height : calc(45vh - #{$tabContainer2Height} ) }
+    .height44 { height : calc(44vh - #{$tabContainer2Height} ) }
+    .height43 { height : calc(43vh - #{$tabContainer2Height} ) }
+    .height42 { height : calc(42vh - #{$tabContainer2Height} ) }
+    .height41 { height : calc(41vh - #{$tabContainer2Height} ) }
+    .height40 { height : calc(40vh - #{$tabContainer2Height} ) }
+    .height39 { height : calc(39vh - #{$tabContainer2Height} ) }
+    .height38 { height : calc(38vh - #{$tabContainer2Height} ) }
+    .height37 { height : calc(37vh - #{$tabContainer2Height} ) }
+    .height36 { height : calc(36vh - #{$tabContainer2Height} ) }
+    .height35 { height : calc(35vh - #{$tabContainer2Height} ) }
+    .height34 { height : calc(34vh - #{$tabContainer2Height} ) }
+    .height33 { height : calc(33vh - #{$tabContainer2Height} ) }
+    .height32 { height : calc(32vh - #{$tabContainer2Height} ) }
+    .height31 { height : calc(31vh - #{$tabContainer2Height} ) }
+    .height30 { height : calc(30vh - #{$tabContainer2Height} ) }
+    .height29 { height : calc(29vh - #{$tabContainer2Height} ) }
+    .height28 { height : calc(28vh - #{$tabContainer2Height} ) }
+    .height27 { height : calc(27vh - #{$tabContainer2Height} ) }
+    .height26 { height : calc(26vh - #{$tabContainer2Height} ) }
+    .height25 { height : calc(25vh - #{$tabContainer2Height} ) }
+    .height24 { height : calc(24vh - #{$tabContainer2Height} ) }
+    .height23 { height : calc(23vh - #{$tabContainer2Height} ) }
+    .height22 { height : calc(22vh - #{$tabContainer2Height} ) }
+    .height21 { height : calc(21vh - #{$tabContainer2Height} ) }
+    .height20 { height : calc(20vh - #{$tabContainer2Height} ) }
+    .height19 { height : calc(19vh - #{$tabContainer2Height} ) }
+    .height18 { height : calc(18vh - #{$tabContainer2Height} ) }
+    .height17 { height : calc(17vh - #{$tabContainer2Height} ) }
+    .height16 { height : calc(16vh - #{$tabContainer2Height} ) }
+    .height15 { height : calc(15vh - #{$tabContainer2Height} ) }
+    .height14 { height : calc(14vh - #{$tabContainer2Height} ) }
+    .height13 { height : calc(13vh - #{$tabContainer2Height} ) }
+    .height12 { height : calc(12vh - #{$tabContainer2Height} ) }
+    .height11 { height : calc(11vh - #{$tabContainer2Height} ) }
+    .height10 { height : calc(10vh - #{$tabContainer2Height} ) }
+}
+
+.tab_content .double_table_container .table_container:has(> .table_top_button_wrapper) .table_scroll_box {
+  .height90 { height : calc(90vh - #{$tabContainer2Height_1} ) }
+  .height89 { height : calc(89vh - #{$tabContainer2Height_1} ) }
+  .height88 { height : calc(88vh - #{$tabContainer2Height_1} ) }
+  .height87 { height : calc(87vh - #{$tabContainer2Height_1} ) }
+  .height86 { height : calc(86vh - #{$tabContainer2Height_1} ) }
+  .height85 { height : calc(85vh - #{$tabContainer2Height_1} ) }
+  .height84 { height : calc(84vh - #{$tabContainer2Height_1} ) }
+  .height83 { height : calc(83vh - #{$tabContainer2Height_1} ) }
+  .height82 { height : calc(82vh - #{$tabContainer2Height_1} ) }
+  .height81 { height : calc(81vh - #{$tabContainer2Height_1} ) }
+  .height80 { height : calc(80vh - #{$tabContainer2Height_1} ) }
+  .height79 { height : calc(79vh - #{$tabContainer2Height_1} ) }
+  .height78 { height : calc(78vh - #{$tabContainer2Height_1} ) }
+  .height77 { height : calc(77vh - #{$tabContainer2Height_1} ) }
+  .height76 { height : calc(76vh - #{$tabContainer2Height_1} ) }
+  .height75 { height : calc(75vh - #{$tabContainer2Height_1} ) }
+  .height74 { height : calc(74vh - #{$tabContainer2Height_1} ) }
+  .height73 { height : calc(73vh - #{$tabContainer2Height_1} ) }
+  .height72 { height : calc(72vh - #{$tabContainer2Height_1} ) }
+  .height71 { height : calc(71vh - #{$tabContainer2Height_1} ) }
+  .height70 { height : calc(70vh - #{$tabContainer2Height_1} ) }
+  .height69 { height : calc(69vh - #{$tabContainer2Height_1} ) }
+  .height68 { height : calc(68vh - #{$tabContainer2Height_1} ) }
+  .height67 { height : calc(67vh - #{$tabContainer2Height_1} ) }
+  .height66 { height : calc(66vh - #{$tabContainer2Height_1} ) }
+  .height65 { height : calc(65vh - #{$tabContainer2Height_1} ) }
+  .height64 { height : calc(64vh - #{$tabContainer2Height_1} ) }
+  .height63 { height : calc(63vh - #{$tabContainer2Height_1} ) }
+  .height62 { height : calc(62vh - #{$tabContainer2Height_1} ) }
+  .height61 { height : calc(61vh - #{$tabContainer2Height_1} ) }
+  .height60 { height : calc(60vh - #{$tabContainer2Height_1} ) }
+  .height59 { height : calc(59vh - #{$tabContainer2Height_1} ) }
+  .height58 { height : calc(58vh - #{$tabContainer2Height_1} ) }
+  .height57 { height : calc(57vh - #{$tabContainer2Height_1} ) }
+  .height56 { height : calc(56vh - #{$tabContainer2Height_1} ) }
+  .height55 { height : calc(55vh - #{$tabContainer2Height_1} ) }
+  .height54 { height : calc(54vh - #{$tabContainer2Height_1} ) }
+  .height53 { height : calc(53vh - #{$tabContainer2Height_1} ) }
+  .height52 { height : calc(52vh - #{$tabContainer2Height_1} ) }
+  .height51 { height : calc(51vh - #{$tabContainer2Height_1} ) }
+  .height50 { height : calc(50vh - #{$tabContainer2Height_1} ) }
+  .height49 { height : calc(49vh - #{$tabContainer2Height_1} ) }
+  .height48 { height : calc(48vh - #{$tabContainer2Height_1} ) }
+  .height47 { height : calc(47vh - #{$tabContainer2Height_1} ) }
+  .height46 { height : calc(46vh - #{$tabContainer2Height_1} ) }
+  .height45 { height : calc(45vh - #{$tabContainer2Height_1} ) }
+  .height44 { height : calc(44vh - #{$tabContainer2Height_1} ) }
+  .height43 { height : calc(43vh - #{$tabContainer2Height_1} ) }
+  .height42 { height : calc(42vh - #{$tabContainer2Height_1} ) }
+  .height41 { height : calc(41vh - #{$tabContainer2Height_1} ) }
+  .height40 { height : calc(40vh - #{$tabContainer2Height_1} ) }
+  .height39 { height : calc(39vh - #{$tabContainer2Height_1} ) }
+  .height38 { height : calc(38vh - #{$tabContainer2Height_1} ) }
+  .height37 { height : calc(37vh - #{$tabContainer2Height_1} ) }
+  .height36 { height : calc(36vh - #{$tabContainer2Height_1} ) }
+  .height35 { height : calc(35vh - #{$tabContainer2Height_1} ) }
+  .height34 { height : calc(34vh - #{$tabContainer2Height_1} ) }
+  .height33 { height : calc(33vh - #{$tabContainer2Height_1} ) }
+  .height32 { height : calc(32vh - #{$tabContainer2Height_1} ) }
+  .height31 { height : calc(31vh - #{$tabContainer2Height_1} ) }
+  .height30 { height : calc(30vh - #{$tabContainer2Height_1} ) }
+  .height29 { height : calc(29vh - #{$tabContainer2Height_1} ) }
+  .height28 { height : calc(28vh - #{$tabContainer2Height_1} ) }
+  .height27 { height : calc(27vh - #{$tabContainer2Height_1} ) }
+  .height26 { height : calc(26vh - #{$tabContainer2Height_1} ) }
+  .height25 { height : calc(25vh - #{$tabContainer2Height_1} ) }
+  .height24 { height : calc(24vh - #{$tabContainer2Height_1} ) }
+  .height23 { height : calc(23vh - #{$tabContainer2Height_1} ) }
+  .height22 { height : calc(22vh - #{$tabContainer2Height_1} ) }
+  .height21 { height : calc(21vh - #{$tabContainer2Height_1} ) }
+  .height20 { height : calc(20vh - #{$tabContainer2Height_1} ) }
+  .height19 { height : calc(19vh - #{$tabContainer2Height_1} ) }
+  .height18 { height : calc(18vh - #{$tabContainer2Height_1} ) }
+  .height17 { height : calc(17vh - #{$tabContainer2Height_1} ) }
+  .height16 { height : calc(16vh - #{$tabContainer2Height_1} ) }
+  .height15 { height : calc(15vh - #{$tabContainer2Height_1} ) }
+  .height14 { height : calc(14vh - #{$tabContainer2Height_1} ) }
+  .height13 { height : calc(13vh - #{$tabContainer2Height_1} ) }
+  .height12 { height : calc(12vh - #{$tabContainer2Height_1} ) }
+  .height11 { height : calc(11vh - #{$tabContainer2Height_1} ) }
+  .height10 { height : calc(10vh - #{$tabContainer2Height_1} ) }
+}
+
+.main .double_table_container_3 .table_container .table_scroll_box {
+  .height90 { height : calc(90vh - #{$tabContainer3Height} ) }
+  .height89 { height : calc(89vh - #{$tabContainer3Height} ) }
+  .height88 { height : calc(88vh - #{$tabContainer3Height} ) }
+  .height87 { height : calc(87vh - #{$tabContainer3Height} ) }
+  .height86 { height : calc(86vh - #{$tabContainer3Height} ) }
+  .height85 { height : calc(85vh - #{$tabContainer3Height} ) }
+  .height84 { height : calc(84vh - #{$tabContainer3Height} ) }
+  .height83 { height : calc(83vh - #{$tabContainer3Height} ) }
+  .height82 { height : calc(82vh - #{$tabContainer3Height} ) }
+  .height81 { height : calc(81vh - #{$tabContainer3Height} ) }
+  .height80 { height : calc(80vh - #{$tabContainer3Height} ) }
+  .height79 { height : calc(79vh - #{$tabContainer3Height} ) }
+  .height78 { height : calc(78vh - #{$tabContainer3Height} ) }
+  .height77 { height : calc(77vh - #{$tabContainer3Height} ) }
+  .height76 { height : calc(76vh - #{$tabContainer3Height} ) }
+  .height75 { height : calc(75vh - #{$tabContainer3Height} ) }
+  .height74 { height : calc(74vh - #{$tabContainer3Height} ) }
+  .height73 { height : calc(73vh - #{$tabContainer3Height} ) }
+  .height72 { height : calc(72vh - #{$tabContainer3Height} ) }
+  .height71 { height : calc(71vh - #{$tabContainer3Height} ) }
+  .height70 { height : calc(70vh - #{$tabContainer3Height} ) }
+  .height69 { height : calc(69vh - #{$tabContainer3Height} ) }
+  .height68 { height : calc(68vh - #{$tabContainer3Height} ) }
+  .height67 { height : calc(67vh - #{$tabContainer3Height} ) }
+  .height66 { height : calc(66vh - #{$tabContainer3Height} ) }
+  .height65 { height : calc(65vh - #{$tabContainer3Height} ) }
+  .height64 { height : calc(64vh - #{$tabContainer3Height} ) }
+  .height63 { height : calc(63vh - #{$tabContainer3Height} ) }
+  .height62 { height : calc(62vh - #{$tabContainer3Height} ) }
+  .height61 { height : calc(61vh - #{$tabContainer3Height} ) }
+  .height60 { height : calc(60vh - #{$tabContainer3Height} ) }
+  .height59 { height : calc(59vh - #{$tabContainer3Height} ) }
+  .height58 { height : calc(58vh - #{$tabContainer3Height} ) }
+  .height57 { height : calc(57vh - #{$tabContainer3Height} ) }
+  .height56 { height : calc(56vh - #{$tabContainer3Height} ) }
+  .height55 { height : calc(55vh - #{$tabContainer3Height} ) }
+  .height54 { height : calc(54vh - #{$tabContainer3Height} ) }
+  .height53 { height : calc(53vh - #{$tabContainer3Height} ) }
+  .height52 { height : calc(52vh - #{$tabContainer3Height} ) }
+  .height51 { height : calc(51vh - #{$tabContainer3Height} ) }
+  .height50 { height : calc(50vh - #{$tabContainer3Height} ) }
+  .height49 { height : calc(49vh - #{$tabContainer3Height} ) }
+  .height48 { height : calc(48vh - #{$tabContainer3Height} ) }
+  .height47 { height : calc(47vh - #{$tabContainer3Height} ) }
+  .height46 { height : calc(46vh - #{$tabContainer3Height} ) }
+  .height45 { height : calc(45vh - #{$tabContainer3Height} ) }
+  .height44 { height : calc(44vh - #{$tabContainer3Height} ) }
+  .height43 { height : calc(43vh - #{$tabContainer3Height} ) }
+  .height42 { height : calc(42vh - #{$tabContainer3Height} ) }
+  .height41 { height : calc(41vh - #{$tabContainer3Height} ) }
+  .height40 { height : calc(40vh - #{$tabContainer3Height} ) }
+  .height39 { height : calc(39vh - #{$tabContainer3Height} ) }
+  .height38 { height : calc(38vh - #{$tabContainer3Height} ) }
+  .height37 { height : calc(37vh - #{$tabContainer3Height} ) }
+  .height36 { height : calc(36vh - #{$tabContainer3Height} ) }
+  .height35 { height : calc(35vh - #{$tabContainer3Height} ) }
+  .height34 { height : calc(34vh - #{$tabContainer3Height} ) }
+  .height33 { height : calc(33vh - #{$tabContainer3Height} ) }
+  .height32 { height : calc(32vh - #{$tabContainer3Height} ) }
+  .height31 { height : calc(31vh - #{$tabContainer3Height} ) }
+  .height30 { height : calc(30vh - #{$tabContainer3Height} ) }
+  .height29 { height : calc(29vh - #{$tabContainer3Height} ) }
+  .height28 { height : calc(28vh - #{$tabContainer3Height} ) }
+  .height27 { height : calc(27vh - #{$tabContainer3Height} ) }
+  .height26 { height : calc(26vh - #{$tabContainer3Height} ) }
+  .height25 { height : calc(25vh - #{$tabContainer3Height} ) }
+  .height24 { height : calc(24vh - #{$tabContainer3Height} ) }
+  .height23 { height : calc(23vh - #{$tabContainer3Height} ) }
+  .height22 { height : calc(22vh - #{$tabContainer3Height} ) }
+  .height21 { height : calc(21vh - #{$tabContainer3Height} ) }
+  .height20 { height : calc(20vh - #{$tabContainer3Height} ) }
+  .height19 { height : calc(19vh - #{$tabContainer3Height} ) }
+  .height18 { height : calc(18vh - #{$tabContainer3Height} ) }
+  .height17 { height : calc(17vh - #{$tabContainer3Height} ) }
+  .height16 { height : calc(16vh - #{$tabContainer3Height} ) }
+  .height15 { height : calc(15vh - #{$tabContainer3Height} ) }
+  .height14 { height : calc(14vh - #{$tabContainer3Height} ) }
+  .height13 { height : calc(13vh - #{$tabContainer3Height} ) }
+  .height12 { height : calc(12vh - #{$tabContainer3Height} ) }
+  .height11 { height : calc(11vh - #{$tabContainer3Height} ) }
+  .height10 { height : calc(10vh - #{$tabContainer3Height} ) }
+}
+
+.main .double_table_container_3 .table_container:has(> .table_top_button_wrapper) .table_scroll_box {
+  .height90 { height : calc(90vh - #{$tabContainer3Height_1} ) }
+  .height89 { height : calc(89vh - #{$tabContainer3Height_1} ) }
+  .height88 { height : calc(88vh - #{$tabContainer3Height_1} ) }
+  .height87 { height : calc(87vh - #{$tabContainer3Height_1} ) }
+  .height86 { height : calc(86vh - #{$tabContainer3Height_1} ) }
+  .height85 { height : calc(85vh - #{$tabContainer3Height_1} ) }
+  .height84 { height : calc(84vh - #{$tabContainer3Height_1} ) }
+  .height83 { height : calc(83vh - #{$tabContainer3Height_1} ) }
+  .height82 { height : calc(82vh - #{$tabContainer3Height_1} ) }
+  .height81 { height : calc(81vh - #{$tabContainer3Height_1} ) }
+  .height80 { height : calc(80vh - #{$tabContainer3Height_1} ) }
+  .height79 { height : calc(79vh - #{$tabContainer3Height_1} ) }
+  .height78 { height : calc(78vh - #{$tabContainer3Height_1} ) }
+  .height77 { height : calc(77vh - #{$tabContainer3Height_1} ) }
+  .height76 { height : calc(76vh - #{$tabContainer3Height_1} ) }
+  .height75 { height : calc(75vh - #{$tabContainer3Height_1} ) }
+  .height74 { height : calc(74vh - #{$tabContainer3Height_1} ) }
+  .height73 { height : calc(73vh - #{$tabContainer3Height_1} ) }
+  .height72 { height : calc(72vh - #{$tabContainer3Height_1} ) }
+  .height71 { height : calc(71vh - #{$tabContainer3Height_1} ) }
+  .height70 { height : calc(70vh - #{$tabContainer3Height_1} ) }
+  .height69 { height : calc(69vh - #{$tabContainer3Height_1} ) }
+  .height68 { height : calc(68vh - #{$tabContainer3Height_1} ) }
+  .height67 { height : calc(67vh - #{$tabContainer3Height_1} ) }
+  .height66 { height : calc(66vh - #{$tabContainer3Height_1} ) }
+  .height65 { height : calc(65vh - #{$tabContainer3Height_1} ) }
+  .height64 { height : calc(64vh - #{$tabContainer3Height_1} ) }
+  .height63 { height : calc(63vh - #{$tabContainer3Height_1} ) }
+  .height62 { height : calc(62vh - #{$tabContainer3Height_1} ) }
+  .height61 { height : calc(61vh - #{$tabContainer3Height_1} ) }
+  .height60 { height : calc(60vh - #{$tabContainer3Height_1} ) }
+  .height59 { height : calc(59vh - #{$tabContainer3Height_1} ) }
+  .height58 { height : calc(58vh - #{$tabContainer3Height_1} ) }
+  .height57 { height : calc(57vh - #{$tabContainer3Height_1} ) }
+  .height56 { height : calc(56vh - #{$tabContainer3Height_1} ) }
+  .height55 { height : calc(55vh - #{$tabContainer3Height_1} ) }
+  .height54 { height : calc(54vh - #{$tabContainer3Height_1} ) }
+  .height53 { height : calc(53vh - #{$tabContainer3Height_1} ) }
+  .height52 { height : calc(52vh - #{$tabContainer3Height_1} ) }
+  .height51 { height : calc(51vh - #{$tabContainer3Height_1} ) }
+  .height50 { height : calc(50vh - #{$tabContainer3Height_1} ) }
+  .height49 { height : calc(49vh - #{$tabContainer3Height_1} ) }
+  .height48 { height : calc(48vh - #{$tabContainer3Height_1} ) }
+  .height47 { height : calc(47vh - #{$tabContainer3Height_1} ) }
+  .height46 { height : calc(46vh - #{$tabContainer3Height_1} ) }
+  .height45 { height : calc(45vh - #{$tabContainer3Height_1} ) }
+  .height44 { height : calc(44vh - #{$tabContainer3Height_1} ) }
+  .height43 { height : calc(43vh - #{$tabContainer3Height_1} ) }
+  .height42 { height : calc(42vh - #{$tabContainer3Height_1} ) }
+  .height41 { height : calc(41vh - #{$tabContainer3Height_1} ) }
+  .height40 { height : calc(40vh - #{$tabContainer3Height_1} ) }
+  .height39 { height : calc(39vh - #{$tabContainer3Height_1} ) }
+  .height38 { height : calc(38vh - #{$tabContainer3Height_1} ) }
+  .height37 { height : calc(37vh - #{$tabContainer3Height_1} ) }
+  .height36 { height : calc(36vh - #{$tabContainer3Height_1} ) }
+  .height35 { height : calc(35vh - #{$tabContainer3Height_1} ) }
+  .height34 { height : calc(34vh - #{$tabContainer3Height_1} ) }
+  .height33 { height : calc(33vh - #{$tabContainer3Height_1} ) }
+  .height32 { height : calc(32vh - #{$tabContainer3Height_1} ) }
+  .height31 { height : calc(31vh - #{$tabContainer3Height_1} ) }
+  .height30 { height : calc(30vh - #{$tabContainer3Height_1} ) }
+  .height29 { height : calc(29vh - #{$tabContainer3Height_1} ) }
+  .height28 { height : calc(28vh - #{$tabContainer3Height_1} ) }
+  .height27 { height : calc(27vh - #{$tabContainer3Height_1} ) }
+  .height26 { height : calc(26vh - #{$tabContainer3Height_1} ) }
+  .height25 { height : calc(25vh - #{$tabContainer3Height_1} ) }
+  .height24 { height : calc(24vh - #{$tabContainer3Height_1} ) }
+  .height23 { height : calc(23vh - #{$tabContainer3Height_1} ) }
+  .height22 { height : calc(22vh - #{$tabContainer3Height_1} ) }
+  .height21 { height : calc(21vh - #{$tabContainer3Height_1} ) }
+  .height20 { height : calc(20vh - #{$tabContainer3Height_1} ) }
+  .height19 { height : calc(19vh - #{$tabContainer3Height_1} ) }
+  .height18 { height : calc(18vh - #{$tabContainer3Height_1} ) }
+  .height17 { height : calc(17vh - #{$tabContainer3Height_1} ) }
+  .height16 { height : calc(16vh - #{$tabContainer3Height_1} ) }
+  .height15 { height : calc(15vh - #{$tabContainer3Height_1} ) }
+  .height14 { height : calc(14vh - #{$tabContainer3Height_1} ) }
+  .height13 { height : calc(13vh - #{$tabContainer3Height_1} ) }
+  .height12 { height : calc(12vh - #{$tabContainer3Height_1} ) }
+  .height11 { height : calc(11vh - #{$tabContainer3Height_1} ) }
+  .height10 { height : calc(10vh - #{$tabContainer3Height_1} ) }
+}
+
+@include desktop_fhd {
+  .height100 { height: 100vh; }
+  .height99 { height: 99vh; }
+  .height98 { height: 98vh; }
+  .height97 { height: 97vh; }
+  .height96 { height: 96vh; }
+  .height95 { height: 95vh; }
+  .height94 { height: 94vh; }
+  .height93 { height: 93vh; }
+  .height92 { height: 92vh; }
+  .height91 { height: 91vh; }
+  .height90 { height: 90vh; }
+  .height89 { height: 89vh; }
+  .height88 { height: 88vh; }
+  .height87 { height: 87vh; }
+  .height86 { height: 86vh; }
+  .height85 { height: 85vh; }
+  .height84 { height: 84vh; }
+  .height83 { height: 83vh; }
+  .height82 { height: 82vh; }
+  .height81 { height: 81vh; }
+  .height80 { height: 80vh; }
+  .height79 { height: 79vh; }
+  .height78 { height: 78vh; }
+  .height77 { height: 77vh; }
+  .height76 { height: 76vh; }
+  .height75 { height: 75vh; }
+  .height74 { height: 74vh; }
+  .height73 { height: 73vh; }
+  .height72 { height: 72vh; }
+  .height71 { height: 71vh; }
+  .height70 { height: 70vh; }
+  .height69 { height: 69vh; }
+  .height68 { height: 68vh; }
+  .height67 { height: 67vh; }
+  .height66 { height: 66vh; }
+  .height65 { height: 65vh; }
+  .height64 { height: 64vh; }
+  .height63 { height: 63vh; }
+  .height62 { height: 62vh; }
+  .height61 { height: 61vh; }
+  .height60 { height: 60vh; }
+  .height59 { height: 59vh; }
+  .height58 { height: 58vh; }
+  .height57 { height: 57vh; }
+  .height56 { height: 56vh; }
+  .height55 { height: 55vh; }
+  .height54 { height: 54vh; }
+  .height53 { height: 53vh; }
+  .height52 { height: 52vh; }
+  .height51 { height: 51vh; }
+  .height50 { height: 50vh; }
+  .height49 { height: 49vh; }
+  .height48 { height: 48vh; }
+  .height47 { height: 47vh; }
+  .height46 { height: 46vh; }
+  .height45 { height: 45vh; }
+  .height44 { height: 44vh; }
+  .height43 { height: 43vh; }
+  .height42 { height: 42vh; }
+  .height41 { height: 41vh; }
+  .height40 { height: 40vh; }
+  .height39 { height: 39vh; }
+  .height38 { height: 38vh; }
+  .height37 { height: 37vh; }
+  .height36 { height: 36vh; }
+  .height35 { height: 35vh; }
+  .height34 { height: 34vh; }
+  .height33 { height: 33vh; }
+  .height32 { height: 32vh; }
+  .height31 { height: 31vh; }
+  .height30 { height: 30vh; }
+  .height29 { height: 29vh; }
+  .height28 { height: 28vh; }
+  .height27 { height: 27vh; }
+  .height26 { height: 26vh; }
+  .height25 { height: 25vh; }
+  .height24 { height: 24vh; }
+  .height23 { height: 23vh; }
+  .height22 { height: 22vh; }
+  .height21 { height: 21vh; }
+  .height20 { height: 20vh; }
+  .height19 { height: 19vh; }
+  .height18 { height: 18vh; }
+  .height17 { height: 17vh; }
+  .height16 { height: 16vh; }
+  .height15 { height: 15vh; }
+  .height14 { height: 14vh; }
+  .height13 { height: 13vh; }
+  .height12 { height: 12vh; }
+  .height11 { height: 11vh; }
+  .height10 { height: 10vh; }
+  .height09 { height: 9vh; }
+  .height08 { height: 8vh; }
+  .height07 { height: 7vh; }
+  .height06 { height: 6vh; }
+  .height05 { height: 5vh; }
+  .height04 { height: 4vh; }
+  .height03 { height: 3vh; }
+  .height02 { height: 2vh; }
+  .height01 { height: 1vh; }
+
+  .width10 { min-width: 10%; width: 10% !important;}
+  .width11 { min-width: 11%; width: 11% !important;}
+  .width12 { min-width: 12%; width: 12% !important;}
+  .width13 { min-width: 13%; width: 13% !important;}
+  .width14 { min-width: 14%; width: 14% !important;}
+  .width15 { min-width: 15%; width: 15% !important;}
+  .width16 { min-width: 16%; width: 16% !important;}
+  .width17 { min-width: 17%; width: 17% !important;}
+  .width18 { min-width: 18%; width: 18% !important;}
+  .width19 { min-width: 19%; width: 19% !important;}
+  .width20 { min-width: 20%; width: 20% !important;}
+  .width21 { min-width: 21%; width: 21% !important;}
+  .width22 { min-width: 22%; width: 22% !important;}
+  .width23 { min-width: 23%; width: 23% !important;}
+  .width24 { min-width: 24%; width: 24% !important;}
+  .width25 { min-width: 25%; width: 25% !important;}
+  .width26 { min-width: 26%; width: 26% !important;}
+  .width27 { min-width: 27%; width: 27% !important;}
+  .width28 { min-width: 28%; width: 28% !important;}
+  .width29 { min-width: 29%; width: 29% !important;}
+  .width30 { min-width: 30%; width: 30% !important;}
+  .width31 { min-width: 31%; width: 31% !important;}
+  .width32 { min-width: 32%; width: 32% !important;}
+  .width33 { min-width: 33%; width: 33% !important;}
+  .width34 { min-width: 34%; width: 34% !important;}
+  .width35 { min-width: 35%; width: 35% !important;}
+  .width36 { min-width: 36%; width: 36% !important;}
+  .width37 { min-width: 37%; width: 37% !important;}
+  .width38 { min-width: 38%; width: 38% !important;}
+  .width39 { min-width: 39%; width: 39% !important;}
+  .width40 { min-width: 40%; width: 40% !important;}
+  .width41 { min-width: 41%; width: 41% !important;}
+  .width42 { min-width: 42%; width: 42% !important;}
+  .width43 { min-width: 43%; width: 43% !important;}
+  .width44 { min-width: 44%; width: 44% !important;}
+  .width45 { min-width: 45%; width: 45% !important;}
+  .width46 { min-width: 46%; width: 46% !important;}
+  .width47 { min-width: 47%; width: 47% !important;}
+  .width48 { min-width: 48%; width: 48% !important;}
+  .width49 { min-width: 49%; width: 49% !important;}
+  .width50 { min-width: 50%; width: 50% !important;}
+  .width51 { min-width: 51%; width: 51% !important;}
+  .width52 { min-width: 52%; width: 52% !important;}
+  .width53 { min-width: 53%; width: 53% !important;}
+  .width54 { min-width: 54%; width: 54% !important;}
+  .width55 { min-width: 55%; width: 55% !important;}
+  .width56 { min-width: 56%; width: 56% !important;}
+  .width57 { min-width: 57%; width: 57% !important;}
+  .width58 { min-width: 58%; width: 58% !important;}
+  .width59 { min-width: 59%; width: 59% !important;}
+  .width60 { min-width: 60%; width: 60% !important;}
+  .width61 { min-width: 61%; width: 61% !important;}
+  .width62 { min-width: 62%; width: 62% !important;}
+  .width63 { min-width: 63%; width: 63% !important;}
+  .width64 { min-width: 64%; width: 64% !important;}
+  .width65 { min-width: 65%; width: 65% !important;}
+  .width66 { min-width: 66%; width: 66% !important;}
+  .width67 { min-width: 67%; width: 67% !important;}
+  .width68 { min-width: 68%; width: 68% !important;}
+  .width69 { min-width: 69%; width: 69% !important;}
+  .width70 { min-width: 70%; width: 70% !important;}
+  .width71 { min-width: 71%; width: 71% !important;}
+  .width72 { min-width: 72%; width: 72% !important;}
+  .width73 { min-width: 73%; width: 73% !important;}
+  .width74 { min-width: 74%; width: 74% !important;}
+  .width75 { min-width: 75%; width: 75% !important;}
+  .width76 { min-width: 76%; width: 76% !important;}
+  .width77 { min-width: 77%; width: 77% !important;}
+  .width78 { min-width: 78%; width: 78% !important;}
+  .width79 { min-width: 79%; width: 79% !important;}
+  .width80 { min-width: 80%; width: 80% !important;}
+  .width81 { min-width: 81%; width: 81% !important;}
+  .width82 { min-width: 82%; width: 82% !important;}
+  .width83 { min-width: 83%; width: 83% !important;}
+  .width84 { min-width: 84%; width: 84% !important;}
+  .width85 { min-width: 85%; width: 85% !important;}
+  .width86 { min-width: 86%; width: 86% !important;}
+  .width87 { min-width: 87%; width: 87% !important;}
+  .width88 { min-width: 88%; width: 88% !important;}
+  .width89 { min-width: 89%; width: 89% !important;}
+  .width90 { min-width: 90%; width: 90% !important;}
+  .width91 { min-width: 91%; width: 91% !important;}
+  .width92 { min-width: 92%; width: 92% !important;}
+  .width93 { min-width: 93%; width: 93% !important;}
+  .width94 { min-width: 94%; width: 94% !important;}
+  .width95 { min-width: 95%; width: 95% !important;}
+  .width96 { min-width: 96%; width: 96% !important;}
+  .width97 { min-width: 97%; width: 97% !important;}
+  .width98 { min-width: 98%; width: 98% !important;}
+  .width99 { min-width: 99%; width: 99% !important;}
+  .width100 { min-width: 100%; width: 100% !important;}
+
+  .tab_content {
+    height: 620px !important;
+  }
+
+  .tab_content_2 {
+    height: 575px !important;
+  }
+
+  .tab_content_3 {
+    width: 100%;
+    height: 570px;
+    overflow: auto;
+  }
+
+  .tab_content_4 {
+    height: 520px !important;
+  }
+
+  .tab_container_1 {
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+    overflow: auto;
+  }
+
+  .table_container_2 {
+    height: 670px !important;
+  }
+
+  .tab_content .msg_info_form_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    height: 460px;
+  }
+
+  .sql_wrapper .sql_box {
+    margin-top: 18px;
+    border: solid 1px #eaeff8;
+    min-height: 730px;
+  }
+
+  .main .msg_info_form_box {
+    max-height: 570px;
+    display: grid;
+    gap: 20px 30px;
+    grid-template-columns: 1fr 1fr;
+    padding: 24px 0 0;
+    overflow: auto;
+  }
+
+  .main .msg_info_form_triple_box {
+    max-height: 500px;
+    display: grid;
+    gap: 20px 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: auto;
+  }
+
+  .main .double_table_container .table_container_2 {
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px 25px 25px;
+    /* 2023-05-30 */
+    flex-basis: 25%;
+    overflow: auto;
+    max-height: 678px;
+  }
+
+  .main .double_table_container_11 .table_container_2 {
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px 25px 25px;
+    /* 2023-05-30 */
+    flex-basis: 25%;
+    overflow: auto;
+    max-height: 678px;
+  }
+
+  .tab_content .double_table_container_3 {
+    max-height: 678px;
+  }
+
+  .divHeight150 {
+    max-height: 150px;
+  }
+
+  .scroll-class {
+    height: 300px;
+  }
+
+  .scrollable-content {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+  }
+
+
+  .containerWidth10 {
+    width: 10vw !important;
+  }
+
+  .containerWidth15 {
+    width: 15vw !important;
+  }
+
+  .containerWidth20 {
+    width: 20vw !important;
+  }
+
+  .containerWidth25 {
+    width: 25vw !important;
+  }
+
+  .containerWidth30 {
+    width: 30vw !important;
+  }
+
+  .containerWidth35 {
+    width: 35vw !important;
+  }
+
+  .containerWidth40 {
+    width: 40vw !important;
+  }
+
+  .containerWidth45 {
+    width: 45vw !important;
+  }
+
+  .containerWidth50 {
+    width: 50vw !important;
+  }
+
+  .containerWidth55 {
+    width: 55vw !important;
+  }
+
+  .containerWidth60 {
+    width: 60vw !important;
+  }
+
+  .containerWidth65 {
+    width: 65vw !important;
+  }
+
+  .containerWidth70 {
+    width: 70vw !important;
+  }
+
+  .containerWidth75 {
+    width: 75vw !important;
+  }
+
+  .containerWidth80 {
+    width: 80vw !important;
+  }
+
+  .containerWidth85 {
+    width: 85vw !important;
+  }
+
+  .containerWidth90 {
+    width: 90vw !important;
+  }
+
+  .containerWidth95 {
+    width: 95vw !important;
+  }
+
+  .tab_content > .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer1Height} ) }
+    .height89 { height : calc(89vh - #{$tabContainer1Height} ) }
+    .height88 { height : calc(88vh - #{$tabContainer1Height} ) }
+    .height87 { height : calc(87vh - #{$tabContainer1Height} ) }
+    .height86 { height : calc(86vh - #{$tabContainer1Height} ) }
+    .height85 { height : calc(85vh - #{$tabContainer1Height} ) }
+    .height84 { height : calc(84vh - #{$tabContainer1Height} ) }
+    .height83 { height : calc(83vh - #{$tabContainer1Height} ) }
+    .height82 { height : calc(82vh - #{$tabContainer1Height} ) }
+    .height81 { height : calc(81vh - #{$tabContainer1Height} ) }
+    .height80 { height : calc(80vh - #{$tabContainer1Height} ) }
+    .height79 { height : calc(79vh - #{$tabContainer1Height} ) }
+    .height78 { height : calc(78vh - #{$tabContainer1Height} ) }
+    .height77 { height : calc(77vh - #{$tabContainer1Height} ) }
+    .height76 { height : calc(76vh - #{$tabContainer1Height} ) }
+    .height75 { height : calc(75vh - #{$tabContainer1Height} ) }
+    .height74 { height : calc(74vh - #{$tabContainer1Height} ) }
+    .height73 { height : calc(73vh - #{$tabContainer1Height} ) }
+    .height72 { height : calc(72vh - #{$tabContainer1Height} ) }
+    .height71 { height : calc(71vh - #{$tabContainer1Height} ) }
+    .height70 { height : calc(70vh - #{$tabContainer1Height} ) }
+    .height69 { height : calc(69vh - #{$tabContainer1Height} ) }
+    .height68 { height : calc(68vh - #{$tabContainer1Height} ) }
+    .height67 { height : calc(67vh - #{$tabContainer1Height} ) }
+    .height66 { height : calc(66vh - #{$tabContainer1Height} ) }
+    .height65 { height : calc(65vh - #{$tabContainer1Height} ) }
+    .height64 { height : calc(64vh - #{$tabContainer1Height} ) }
+    .height63 { height : calc(63vh - #{$tabContainer1Height} ) }
+    .height62 { height : calc(62vh - #{$tabContainer1Height} ) }
+    .height61 { height : calc(61vh - #{$tabContainer1Height} ) }
+    .height60 { height : calc(60vh - #{$tabContainer1Height} ) }
+    .height59 { height : calc(59vh - #{$tabContainer1Height} ) }
+    .height58 { height : calc(58vh - #{$tabContainer1Height} ) }
+    .height57 { height : calc(57vh - #{$tabContainer1Height} ) }
+    .height56 { height : calc(56vh - #{$tabContainer1Height} ) }
+    .height55 { height : calc(55vh - #{$tabContainer1Height} ) }
+    .height54 { height : calc(54vh - #{$tabContainer1Height} ) }
+    .height53 { height : calc(53vh - #{$tabContainer1Height} ) }
+    .height52 { height : calc(52vh - #{$tabContainer1Height} ) }
+    .height51 { height : calc(51vh - #{$tabContainer1Height} ) }
+    .height50 { height : calc(50vh - #{$tabContainer1Height} ) }
+    .height49 { height : calc(49vh - #{$tabContainer1Height} ) }
+    .height48 { height : calc(48vh - #{$tabContainer1Height} ) }
+    .height47 { height : calc(47vh - #{$tabContainer1Height} ) }
+    .height46 { height : calc(46vh - #{$tabContainer1Height} ) }
+    .height45 { height : calc(45vh - #{$tabContainer1Height} ) }
+    .height44 { height : calc(44vh - #{$tabContainer1Height} ) }
+    .height43 { height : calc(43vh - #{$tabContainer1Height} ) }
+    .height42 { height : calc(42vh - #{$tabContainer1Height} ) }
+    .height41 { height : calc(41vh - #{$tabContainer1Height} ) }
+    .height40 { height : calc(40vh - #{$tabContainer1Height} ) }
+    .height39 { height : calc(39vh - #{$tabContainer1Height} ) }
+    .height38 { height : calc(38vh - #{$tabContainer1Height} ) }
+    .height37 { height : calc(37vh - #{$tabContainer1Height} ) }
+    .height36 { height : calc(36vh - #{$tabContainer1Height} ) }
+    .height35 { height : calc(35vh - #{$tabContainer1Height} ) }
+    .height34 { height : calc(34vh - #{$tabContainer1Height} ) }
+    .height33 { height : calc(33vh - #{$tabContainer1Height} ) }
+    .height32 { height : calc(32vh - #{$tabContainer1Height} ) }
+    .height31 { height : calc(31vh - #{$tabContainer1Height} ) }
+    .height30 { height : calc(30vh - #{$tabContainer1Height} ) }
+    .height29 { height : calc(29vh - #{$tabContainer1Height} ) }
+    .height28 { height : calc(28vh - #{$tabContainer1Height} ) }
+    .height27 { height : calc(27vh - #{$tabContainer1Height} ) }
+    .height26 { height : calc(26vh - #{$tabContainer1Height} ) }
+    .height25 { height : calc(25vh - #{$tabContainer1Height} ) }
+    .height24 { height : calc(24vh - #{$tabContainer1Height} ) }
+    .height23 { height : calc(23vh - #{$tabContainer1Height} ) }
+    .height22 { height : calc(22vh - #{$tabContainer1Height} ) }
+    .height21 { height : calc(21vh - #{$tabContainer1Height} ) }
+    .height20 { height : calc(20vh - #{$tabContainer1Height} ) }
+    .height19 { height : calc(19vh - #{$tabContainer1Height} ) }
+    .height18 { height : calc(18vh - #{$tabContainer1Height} ) }
+    .height17 { height : calc(17vh - #{$tabContainer1Height} ) }
+    .height16 { height : calc(16vh - #{$tabContainer1Height} ) }
+    .height15 { height : calc(15vh - #{$tabContainer1Height} ) }
+    .height14 { height : calc(14vh - #{$tabContainer1Height} ) }
+    .height13 { height : calc(13vh - #{$tabContainer1Height} ) }
+    .height12 { height : calc(12vh - #{$tabContainer1Height} ) }
+    .height11 { height : calc(11vh - #{$tabContainer1Height} ) }
+    .height10 { height : calc(10vh - #{$tabContainer1Height} ) }
+  }
+
+  .tab_content:has(> .table_top_button_wrapper) > .table_scroll_box ,
+  .tab_content .msg_info_form_box_2 .table_scroll_box
+  {
+    .height90 { height : calc(90vh - #{$tabContainer1Height_1} ) }
+    .height89 { height : calc(89vh - #{$tabContainer1Height_1} ) }
+    .height88 { height : calc(88vh - #{$tabContainer1Height_1} ) }
+    .height87 { height : calc(87vh - #{$tabContainer1Height_1} ) }
+    .height86 { height : calc(86vh - #{$tabContainer1Height_1} ) }
+    .height85 { height : calc(85vh - #{$tabContainer1Height_1} ) }
+    .height84 { height : calc(84vh - #{$tabContainer1Height_1} ) }
+    .height83 { height : calc(83vh - #{$tabContainer1Height_1} ) }
+    .height82 { height : calc(82vh - #{$tabContainer1Height_1} ) }
+    .height81 { height : calc(81vh - #{$tabContainer1Height_1} ) }
+    .height80 { height : calc(80vh - #{$tabContainer1Height_1} ) }
+    .height79 { height : calc(79vh - #{$tabContainer1Height_1} ) }
+    .height78 { height : calc(78vh - #{$tabContainer1Height_1} ) }
+    .height77 { height : calc(77vh - #{$tabContainer1Height_1} ) }
+    .height76 { height : calc(76vh - #{$tabContainer1Height_1} ) }
+    .height75 { height : calc(75vh - #{$tabContainer1Height_1} ) }
+    .height74 { height : calc(74vh - #{$tabContainer1Height_1} ) }
+    .height73 { height : calc(73vh - #{$tabContainer1Height_1} ) }
+    .height72 { height : calc(72vh - #{$tabContainer1Height_1} ) }
+    .height71 { height : calc(71vh - #{$tabContainer1Height_1} ) }
+    .height70 { height : calc(70vh - #{$tabContainer1Height_1} ) }
+    .height69 { height : calc(69vh - #{$tabContainer1Height_1} ) }
+    .height68 { height : calc(68vh - #{$tabContainer1Height_1} ) }
+    .height67 { height : calc(67vh - #{$tabContainer1Height_1} ) }
+    .height66 { height : calc(66vh - #{$tabContainer1Height_1} ) }
+    .height65 { height : calc(65vh - #{$tabContainer1Height_1} ) }
+    .height64 { height : calc(64vh - #{$tabContainer1Height_1} ) }
+    .height63 { height : calc(63vh - #{$tabContainer1Height_1} ) }
+    .height62 { height : calc(62vh - #{$tabContainer1Height_1} ) }
+    .height61 { height : calc(61vh - #{$tabContainer1Height_1} ) }
+    .height60 { height : calc(60vh - #{$tabContainer1Height_1} ) }
+    .height59 { height : calc(59vh - #{$tabContainer1Height_1} ) }
+    .height58 { height : calc(58vh - #{$tabContainer1Height_1} ) }
+    .height57 { height : calc(57vh - #{$tabContainer1Height_1} ) }
+    .height56 { height : calc(56vh - #{$tabContainer1Height_1} ) }
+    .height55 { height : calc(55vh - #{$tabContainer1Height_1} ) }
+    .height54 { height : calc(54vh - #{$tabContainer1Height_1} ) }
+    .height53 { height : calc(53vh - #{$tabContainer1Height_1} ) }
+    .height52 { height : calc(52vh - #{$tabContainer1Height_1} ) }
+    .height51 { height : calc(51vh - #{$tabContainer1Height_1} ) }
+    .height50 { height : calc(50vh - #{$tabContainer1Height_1} ) }
+    .height49 { height : calc(49vh - #{$tabContainer1Height_1} ) }
+    .height48 { height : calc(48vh - #{$tabContainer1Height_1} ) }
+    .height47 { height : calc(47vh - #{$tabContainer1Height_1} ) }
+    .height46 { height : calc(46vh - #{$tabContainer1Height_1} ) }
+    .height45 { height : calc(45vh - #{$tabContainer1Height_1} ) }
+    .height44 { height : calc(44vh - #{$tabContainer1Height_1} ) }
+    .height43 { height : calc(43vh - #{$tabContainer1Height_1} ) }
+    .height42 { height : calc(42vh - #{$tabContainer1Height_1} ) }
+    .height41 { height : calc(41vh - #{$tabContainer1Height_1} ) }
+    .height40 { height : calc(40vh - #{$tabContainer1Height_1} ) }
+    .height39 { height : calc(39vh - #{$tabContainer1Height_1} ) }
+    .height38 { height : calc(38vh - #{$tabContainer1Height_1} ) }
+    .height37 { height : calc(37vh - #{$tabContainer1Height_1} ) }
+    .height36 { height : calc(36vh - #{$tabContainer1Height_1} ) }
+    .height35 { height : calc(35vh - #{$tabContainer1Height_1} ) }
+    .height34 { height : calc(34vh - #{$tabContainer1Height_1} ) }
+    .height33 { height : calc(33vh - #{$tabContainer1Height_1} ) }
+    .height32 { height : calc(32vh - #{$tabContainer1Height_1} ) }
+    .height31 { height : calc(31vh - #{$tabContainer1Height_1} ) }
+    .height30 { height : calc(30vh - #{$tabContainer1Height_1} ) }
+    .height29 { height : calc(29vh - #{$tabContainer1Height_1} ) }
+    .height28 { height : calc(28vh - #{$tabContainer1Height_1} ) }
+    .height27 { height : calc(27vh - #{$tabContainer1Height_1} ) }
+    .height26 { height : calc(26vh - #{$tabContainer1Height_1} ) }
+    .height25 { height : calc(25vh - #{$tabContainer1Height_1} ) }
+    .height24 { height : calc(24vh - #{$tabContainer1Height_1} ) }
+    .height23 { height : calc(23vh - #{$tabContainer1Height_1} ) }
+    .height22 { height : calc(22vh - #{$tabContainer1Height_1} ) }
+    .height21 { height : calc(21vh - #{$tabContainer1Height_1} ) }
+    .height20 { height : calc(20vh - #{$tabContainer1Height_1} ) }
+    .height19 { height : calc(19vh - #{$tabContainer1Height_1} ) }
+    .height18 { height : calc(18vh - #{$tabContainer1Height_1} ) }
+    .height17 { height : calc(17vh - #{$tabContainer1Height_1} ) }
+    .height16 { height : calc(16vh - #{$tabContainer1Height_1} ) }
+    .height15 { height : calc(15vh - #{$tabContainer1Height_1} ) }
+    .height14 { height : calc(14vh - #{$tabContainer1Height_1} ) }
+    .height13 { height : calc(13vh - #{$tabContainer1Height_1} ) }
+    .height12 { height : calc(12vh - #{$tabContainer1Height_1} ) }
+    .height11 { height : calc(11vh - #{$tabContainer1Height_1} ) }
+    .height10 { height : calc(10vh - #{$tabContainer1Height_1} ) }
+  }
+
+  .tab_content .double_table_container .table_container .table_scroll_box {
+      .height90 { height : calc(90vh - #{$tabContainer2Height} ) }
+      .height89 { height : calc(89vh - #{$tabContainer2Height} ) }
+      .height88 { height : calc(88vh - #{$tabContainer2Height} ) }
+      .height87 { height : calc(87vh - #{$tabContainer2Height} ) }
+      .height86 { height : calc(86vh - #{$tabContainer2Height} ) }
+      .height85 { height : calc(85vh - #{$tabContainer2Height} ) }
+      .height84 { height : calc(84vh - #{$tabContainer2Height} ) }
+      .height83 { height : calc(83vh - #{$tabContainer2Height} ) }
+      .height82 { height : calc(82vh - #{$tabContainer2Height} ) }
+      .height81 { height : calc(81vh - #{$tabContainer2Height} ) }
+      .height80 { height : calc(80vh - #{$tabContainer2Height} ) }
+      .height79 { height : calc(79vh - #{$tabContainer2Height} ) }
+      .height78 { height : calc(78vh - #{$tabContainer2Height} ) }
+      .height77 { height : calc(77vh - #{$tabContainer2Height} ) }
+      .height76 { height : calc(76vh - #{$tabContainer2Height} ) }
+      .height75 { height : calc(75vh - #{$tabContainer2Height} ) }
+      .height74 { height : calc(74vh - #{$tabContainer2Height} ) }
+      .height73 { height : calc(73vh - #{$tabContainer2Height} ) }
+      .height72 { height : calc(72vh - #{$tabContainer2Height} ) }
+      .height71 { height : calc(71vh - #{$tabContainer2Height} ) }
+      .height70 { height : calc(70vh - #{$tabContainer2Height} ) }
+      .height69 { height : calc(69vh - #{$tabContainer2Height} ) }
+      .height68 { height : calc(68vh - #{$tabContainer2Height} ) }
+      .height67 { height : calc(67vh - #{$tabContainer2Height} ) }
+      .height66 { height : calc(66vh - #{$tabContainer2Height} ) }
+      .height65 { height : calc(65vh - #{$tabContainer2Height} ) }
+      .height64 { height : calc(64vh - #{$tabContainer2Height} ) }
+      .height63 { height : calc(63vh - #{$tabContainer2Height} ) }
+      .height62 { height : calc(62vh - #{$tabContainer2Height} ) }
+      .height61 { height : calc(61vh - #{$tabContainer2Height} ) }
+      .height60 { height : calc(60vh - #{$tabContainer2Height} ) }
+      .height59 { height : calc(59vh - #{$tabContainer2Height} ) }
+      .height58 { height : calc(58vh - #{$tabContainer2Height} ) }
+      .height57 { height : calc(57vh - #{$tabContainer2Height} ) }
+      .height56 { height : calc(56vh - #{$tabContainer2Height} ) }
+      .height55 { height : calc(55vh - #{$tabContainer2Height} ) }
+      .height54 { height : calc(54vh - #{$tabContainer2Height} ) }
+      .height53 { height : calc(53vh - #{$tabContainer2Height} ) }
+      .height52 { height : calc(52vh - #{$tabContainer2Height} ) }
+      .height51 { height : calc(51vh - #{$tabContainer2Height} ) }
+      .height50 { height : calc(50vh - #{$tabContainer2Height} ) }
+      .height49 { height : calc(49vh - #{$tabContainer2Height} ) }
+      .height48 { height : calc(48vh - #{$tabContainer2Height} ) }
+      .height47 { height : calc(47vh - #{$tabContainer2Height} ) }
+      .height46 { height : calc(46vh - #{$tabContainer2Height} ) }
+      .height45 { height : calc(45vh - #{$tabContainer2Height} ) }
+      .height44 { height : calc(44vh - #{$tabContainer2Height} ) }
+      .height43 { height : calc(43vh - #{$tabContainer2Height} ) }
+      .height42 { height : calc(42vh - #{$tabContainer2Height} ) }
+      .height41 { height : calc(41vh - #{$tabContainer2Height} ) }
+      .height40 { height : calc(40vh - #{$tabContainer2Height} ) }
+      .height39 { height : calc(39vh - #{$tabContainer2Height} ) }
+      .height38 { height : calc(38vh - #{$tabContainer2Height} ) }
+      .height37 { height : calc(37vh - #{$tabContainer2Height} ) }
+      .height36 { height : calc(36vh - #{$tabContainer2Height} ) }
+      .height35 { height : calc(35vh - #{$tabContainer2Height} ) }
+      .height34 { height : calc(34vh - #{$tabContainer2Height} ) }
+      .height33 { height : calc(33vh - #{$tabContainer2Height} ) }
+      .height32 { height : calc(32vh - #{$tabContainer2Height} ) }
+      .height31 { height : calc(31vh - #{$tabContainer2Height} ) }
+      .height30 { height : calc(30vh - #{$tabContainer2Height} ) }
+      .height29 { height : calc(29vh - #{$tabContainer2Height} ) }
+      .height28 { height : calc(28vh - #{$tabContainer2Height} ) }
+      .height27 { height : calc(27vh - #{$tabContainer2Height} ) }
+      .height26 { height : calc(26vh - #{$tabContainer2Height} ) }
+      .height25 { height : calc(25vh - #{$tabContainer2Height} ) }
+      .height24 { height : calc(24vh - #{$tabContainer2Height} ) }
+      .height23 { height : calc(23vh - #{$tabContainer2Height} ) }
+      .height22 { height : calc(22vh - #{$tabContainer2Height} ) }
+      .height21 { height : calc(21vh - #{$tabContainer2Height} ) }
+      .height20 { height : calc(20vh - #{$tabContainer2Height} ) }
+      .height19 { height : calc(19vh - #{$tabContainer2Height} ) }
+      .height18 { height : calc(18vh - #{$tabContainer2Height} ) }
+      .height17 { height : calc(17vh - #{$tabContainer2Height} ) }
+      .height16 { height : calc(16vh - #{$tabContainer2Height} ) }
+      .height15 { height : calc(15vh - #{$tabContainer2Height} ) }
+      .height14 { height : calc(14vh - #{$tabContainer2Height} ) }
+      .height13 { height : calc(13vh - #{$tabContainer2Height} ) }
+      .height12 { height : calc(12vh - #{$tabContainer2Height} ) }
+      .height11 { height : calc(11vh - #{$tabContainer2Height} ) }
+      .height10 { height : calc(10vh - #{$tabContainer2Height} ) }
+  }
+
+  .tab_content .double_table_container .table_container:has(> .table_top_button_wrapper) .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer2Height_1} ) }
+    .height89 { height : calc(89vh - #{$tabContainer2Height_1} ) }
+    .height88 { height : calc(88vh - #{$tabContainer2Height_1} ) }
+    .height87 { height : calc(87vh - #{$tabContainer2Height_1} ) }
+    .height86 { height : calc(86vh - #{$tabContainer2Height_1} ) }
+    .height85 { height : calc(85vh - #{$tabContainer2Height_1} ) }
+    .height84 { height : calc(84vh - #{$tabContainer2Height_1} ) }
+    .height83 { height : calc(83vh - #{$tabContainer2Height_1} ) }
+    .height82 { height : calc(82vh - #{$tabContainer2Height_1} ) }
+    .height81 { height : calc(81vh - #{$tabContainer2Height_1} ) }
+    .height80 { height : calc(80vh - #{$tabContainer2Height_1} ) }
+    .height79 { height : calc(79vh - #{$tabContainer2Height_1} ) }
+    .height78 { height : calc(78vh - #{$tabContainer2Height_1} ) }
+    .height77 { height : calc(77vh - #{$tabContainer2Height_1} ) }
+    .height76 { height : calc(76vh - #{$tabContainer2Height_1} ) }
+    .height75 { height : calc(75vh - #{$tabContainer2Height_1} ) }
+    .height74 { height : calc(74vh - #{$tabContainer2Height_1} ) }
+    .height73 { height : calc(73vh - #{$tabContainer2Height_1} ) }
+    .height72 { height : calc(72vh - #{$tabContainer2Height_1} ) }
+    .height71 { height : calc(71vh - #{$tabContainer2Height_1} ) }
+    .height70 { height : calc(70vh - #{$tabContainer2Height_1} ) }
+    .height69 { height : calc(69vh - #{$tabContainer2Height_1} ) }
+    .height68 { height : calc(68vh - #{$tabContainer2Height_1} ) }
+    .height67 { height : calc(67vh - #{$tabContainer2Height_1} ) }
+    .height66 { height : calc(66vh - #{$tabContainer2Height_1} ) }
+    .height65 { height : calc(65vh - #{$tabContainer2Height_1} ) }
+    .height64 { height : calc(64vh - #{$tabContainer2Height_1} ) }
+    .height63 { height : calc(63vh - #{$tabContainer2Height_1} ) }
+    .height62 { height : calc(62vh - #{$tabContainer2Height_1} ) }
+    .height61 { height : calc(61vh - #{$tabContainer2Height_1} ) }
+    .height60 { height : calc(60vh - #{$tabContainer2Height_1} ) }
+    .height59 { height : calc(59vh - #{$tabContainer2Height_1} ) }
+    .height58 { height : calc(58vh - #{$tabContainer2Height_1} ) }
+    .height57 { height : calc(57vh - #{$tabContainer2Height_1} ) }
+    .height56 { height : calc(56vh - #{$tabContainer2Height_1} ) }
+    .height55 { height : calc(55vh - #{$tabContainer2Height_1} ) }
+    .height54 { height : calc(54vh - #{$tabContainer2Height_1} ) }
+    .height53 { height : calc(53vh - #{$tabContainer2Height_1} ) }
+    .height52 { height : calc(52vh - #{$tabContainer2Height_1} ) }
+    .height51 { height : calc(51vh - #{$tabContainer2Height_1} ) }
+    .height50 { height : calc(50vh - #{$tabContainer2Height_1} ) }
+    .height49 { height : calc(49vh - #{$tabContainer2Height_1} ) }
+    .height48 { height : calc(48vh - #{$tabContainer2Height_1} ) }
+    .height47 { height : calc(47vh - #{$tabContainer2Height_1} ) }
+    .height46 { height : calc(46vh - #{$tabContainer2Height_1} ) }
+    .height45 { height : calc(45vh - #{$tabContainer2Height_1} ) }
+    .height44 { height : calc(44vh - #{$tabContainer2Height_1} ) }
+    .height43 { height : calc(43vh - #{$tabContainer2Height_1} ) }
+    .height42 { height : calc(42vh - #{$tabContainer2Height_1} ) }
+    .height41 { height : calc(41vh - #{$tabContainer2Height_1} ) }
+    .height40 { height : calc(40vh - #{$tabContainer2Height_1} ) }
+    .height39 { height : calc(39vh - #{$tabContainer2Height_1} ) }
+    .height38 { height : calc(38vh - #{$tabContainer2Height_1} ) }
+    .height37 { height : calc(37vh - #{$tabContainer2Height_1} ) }
+    .height36 { height : calc(36vh - #{$tabContainer2Height_1} ) }
+    .height35 { height : calc(35vh - #{$tabContainer2Height_1} ) }
+    .height34 { height : calc(34vh - #{$tabContainer2Height_1} ) }
+    .height33 { height : calc(33vh - #{$tabContainer2Height_1} ) }
+    .height32 { height : calc(32vh - #{$tabContainer2Height_1} ) }
+    .height31 { height : calc(31vh - #{$tabContainer2Height_1} ) }
+    .height30 { height : calc(30vh - #{$tabContainer2Height_1} ) }
+    .height29 { height : calc(29vh - #{$tabContainer2Height_1} ) }
+    .height28 { height : calc(28vh - #{$tabContainer2Height_1} ) }
+    .height27 { height : calc(27vh - #{$tabContainer2Height_1} ) }
+    .height26 { height : calc(26vh - #{$tabContainer2Height_1} ) }
+    .height25 { height : calc(25vh - #{$tabContainer2Height_1} ) }
+    .height24 { height : calc(24vh - #{$tabContainer2Height_1} ) }
+    .height23 { height : calc(23vh - #{$tabContainer2Height_1} ) }
+    .height22 { height : calc(22vh - #{$tabContainer2Height_1} ) }
+    .height21 { height : calc(21vh - #{$tabContainer2Height_1} ) }
+    .height20 { height : calc(20vh - #{$tabContainer2Height_1} ) }
+    .height19 { height : calc(19vh - #{$tabContainer2Height_1} ) }
+    .height18 { height : calc(18vh - #{$tabContainer2Height_1} ) }
+    .height17 { height : calc(17vh - #{$tabContainer2Height_1} ) }
+    .height16 { height : calc(16vh - #{$tabContainer2Height_1} ) }
+    .height15 { height : calc(15vh - #{$tabContainer2Height_1} ) }
+    .height14 { height : calc(14vh - #{$tabContainer2Height_1} ) }
+    .height13 { height : calc(13vh - #{$tabContainer2Height_1} ) }
+    .height12 { height : calc(12vh - #{$tabContainer2Height_1} ) }
+    .height11 { height : calc(11vh - #{$tabContainer2Height_1} ) }
+    .height10 { height : calc(10vh - #{$tabContainer2Height_1} ) }
+  }
+
+  .main .double_table_container_3 .table_container .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer3Height} ) }
+    .height89 { height : calc(89vh - #{$tabContainer3Height} ) }
+    .height88 { height : calc(88vh - #{$tabContainer3Height} ) }
+    .height87 { height : calc(87vh - #{$tabContainer3Height} ) }
+    .height86 { height : calc(86vh - #{$tabContainer3Height} ) }
+    .height85 { height : calc(85vh - #{$tabContainer3Height} ) }
+    .height84 { height : calc(84vh - #{$tabContainer3Height} ) }
+    .height83 { height : calc(83vh - #{$tabContainer3Height} ) }
+    .height82 { height : calc(82vh - #{$tabContainer3Height} ) }
+    .height81 { height : calc(81vh - #{$tabContainer3Height} ) }
+    .height80 { height : calc(80vh - #{$tabContainer3Height} ) }
+    .height79 { height : calc(79vh - #{$tabContainer3Height} ) }
+    .height78 { height : calc(78vh - #{$tabContainer3Height} ) }
+    .height77 { height : calc(77vh - #{$tabContainer3Height} ) }
+    .height76 { height : calc(76vh - #{$tabContainer3Height} ) }
+    .height75 { height : calc(75vh - #{$tabContainer3Height} ) }
+    .height74 { height : calc(74vh - #{$tabContainer3Height} ) }
+    .height73 { height : calc(73vh - #{$tabContainer3Height} ) }
+    .height72 { height : calc(72vh - #{$tabContainer3Height} ) }
+    .height71 { height : calc(71vh - #{$tabContainer3Height} ) }
+    .height70 { height : calc(70vh - #{$tabContainer3Height} ) }
+    .height69 { height : calc(69vh - #{$tabContainer3Height} ) }
+    .height68 { height : calc(68vh - #{$tabContainer3Height} ) }
+    .height67 { height : calc(67vh - #{$tabContainer3Height} ) }
+    .height66 { height : calc(66vh - #{$tabContainer3Height} ) }
+    .height65 { height : calc(65vh - #{$tabContainer3Height} ) }
+    .height64 { height : calc(64vh - #{$tabContainer3Height} ) }
+    .height63 { height : calc(63vh - #{$tabContainer3Height} ) }
+    .height62 { height : calc(62vh - #{$tabContainer3Height} ) }
+    .height61 { height : calc(61vh - #{$tabContainer3Height} ) }
+    .height60 { height : calc(60vh - #{$tabContainer3Height} ) }
+    .height59 { height : calc(59vh - #{$tabContainer3Height} ) }
+    .height58 { height : calc(58vh - #{$tabContainer3Height} ) }
+    .height57 { height : calc(57vh - #{$tabContainer3Height} ) }
+    .height56 { height : calc(56vh - #{$tabContainer3Height} ) }
+    .height55 { height : calc(55vh - #{$tabContainer3Height} ) }
+    .height54 { height : calc(54vh - #{$tabContainer3Height} ) }
+    .height53 { height : calc(53vh - #{$tabContainer3Height} ) }
+    .height52 { height : calc(52vh - #{$tabContainer3Height} ) }
+    .height51 { height : calc(51vh - #{$tabContainer3Height} ) }
+    .height50 { height : calc(50vh - #{$tabContainer3Height} ) }
+    .height49 { height : calc(49vh - #{$tabContainer3Height} ) }
+    .height48 { height : calc(48vh - #{$tabContainer3Height} ) }
+    .height47 { height : calc(47vh - #{$tabContainer3Height} ) }
+    .height46 { height : calc(46vh - #{$tabContainer3Height} ) }
+    .height45 { height : calc(45vh - #{$tabContainer3Height} ) }
+    .height44 { height : calc(44vh - #{$tabContainer3Height} ) }
+    .height43 { height : calc(43vh - #{$tabContainer3Height} ) }
+    .height42 { height : calc(42vh - #{$tabContainer3Height} ) }
+    .height41 { height : calc(41vh - #{$tabContainer3Height} ) }
+    .height40 { height : calc(40vh - #{$tabContainer3Height} ) }
+    .height39 { height : calc(39vh - #{$tabContainer3Height} ) }
+    .height38 { height : calc(38vh - #{$tabContainer3Height} ) }
+    .height37 { height : calc(37vh - #{$tabContainer3Height} ) }
+    .height36 { height : calc(36vh - #{$tabContainer3Height} ) }
+    .height35 { height : calc(35vh - #{$tabContainer3Height} ) }
+    .height34 { height : calc(34vh - #{$tabContainer3Height} ) }
+    .height33 { height : calc(33vh - #{$tabContainer3Height} ) }
+    .height32 { height : calc(32vh - #{$tabContainer3Height} ) }
+    .height31 { height : calc(31vh - #{$tabContainer3Height} ) }
+    .height30 { height : calc(30vh - #{$tabContainer3Height} ) }
+    .height29 { height : calc(29vh - #{$tabContainer3Height} ) }
+    .height28 { height : calc(28vh - #{$tabContainer3Height} ) }
+    .height27 { height : calc(27vh - #{$tabContainer3Height} ) }
+    .height26 { height : calc(26vh - #{$tabContainer3Height} ) }
+    .height25 { height : calc(25vh - #{$tabContainer3Height} ) }
+    .height24 { height : calc(24vh - #{$tabContainer3Height} ) }
+    .height23 { height : calc(23vh - #{$tabContainer3Height} ) }
+    .height22 { height : calc(22vh - #{$tabContainer3Height} ) }
+    .height21 { height : calc(21vh - #{$tabContainer3Height} ) }
+    .height20 { height : calc(20vh - #{$tabContainer3Height} ) }
+    .height19 { height : calc(19vh - #{$tabContainer3Height} ) }
+    .height18 { height : calc(18vh - #{$tabContainer3Height} ) }
+    .height17 { height : calc(17vh - #{$tabContainer3Height} ) }
+    .height16 { height : calc(16vh - #{$tabContainer3Height} ) }
+    .height15 { height : calc(15vh - #{$tabContainer3Height} ) }
+    .height14 { height : calc(14vh - #{$tabContainer3Height} ) }
+    .height13 { height : calc(13vh - #{$tabContainer3Height} ) }
+    .height12 { height : calc(12vh - #{$tabContainer3Height} ) }
+    .height11 { height : calc(11vh - #{$tabContainer3Height} ) }
+    .height10 { height : calc(10vh - #{$tabContainer3Height} ) }
+  }
+
+  .main .double_table_container_3 .table_container:has(> .table_top_button_wrapper) .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer3Height_1} ) }
+    .height89 { height : calc(89vh - #{$tabContainer3Height_1} ) }
+    .height88 { height : calc(88vh - #{$tabContainer3Height_1} ) }
+    .height87 { height : calc(87vh - #{$tabContainer3Height_1} ) }
+    .height86 { height : calc(86vh - #{$tabContainer3Height_1} ) }
+    .height85 { height : calc(85vh - #{$tabContainer3Height_1} ) }
+    .height84 { height : calc(84vh - #{$tabContainer3Height_1} ) }
+    .height83 { height : calc(83vh - #{$tabContainer3Height_1} ) }
+    .height82 { height : calc(82vh - #{$tabContainer3Height_1} ) }
+    .height81 { height : calc(81vh - #{$tabContainer3Height_1} ) }
+    .height80 { height : calc(80vh - #{$tabContainer3Height_1} ) }
+    .height79 { height : calc(79vh - #{$tabContainer3Height_1} ) }
+    .height78 { height : calc(78vh - #{$tabContainer3Height_1} ) }
+    .height77 { height : calc(77vh - #{$tabContainer3Height_1} ) }
+    .height76 { height : calc(76vh - #{$tabContainer3Height_1} ) }
+    .height75 { height : calc(75vh - #{$tabContainer3Height_1} ) }
+    .height74 { height : calc(74vh - #{$tabContainer3Height_1} ) }
+    .height73 { height : calc(73vh - #{$tabContainer3Height_1} ) }
+    .height72 { height : calc(72vh - #{$tabContainer3Height_1} ) }
+    .height71 { height : calc(71vh - #{$tabContainer3Height_1} ) }
+    .height70 { height : calc(70vh - #{$tabContainer3Height_1} ) }
+    .height69 { height : calc(69vh - #{$tabContainer3Height_1} ) }
+    .height68 { height : calc(68vh - #{$tabContainer3Height_1} ) }
+    .height67 { height : calc(67vh - #{$tabContainer3Height_1} ) }
+    .height66 { height : calc(66vh - #{$tabContainer3Height_1} ) }
+    .height65 { height : calc(65vh - #{$tabContainer3Height_1} ) }
+    .height64 { height : calc(64vh - #{$tabContainer3Height_1} ) }
+    .height63 { height : calc(63vh - #{$tabContainer3Height_1} ) }
+    .height62 { height : calc(62vh - #{$tabContainer3Height_1} ) }
+    .height61 { height : calc(61vh - #{$tabContainer3Height_1} ) }
+    .height60 { height : calc(60vh - #{$tabContainer3Height_1} ) }
+    .height59 { height : calc(59vh - #{$tabContainer3Height_1} ) }
+    .height58 { height : calc(58vh - #{$tabContainer3Height_1} ) }
+    .height57 { height : calc(57vh - #{$tabContainer3Height_1} ) }
+    .height56 { height : calc(56vh - #{$tabContainer3Height_1} ) }
+    .height55 { height : calc(55vh - #{$tabContainer3Height_1} ) }
+    .height54 { height : calc(54vh - #{$tabContainer3Height_1} ) }
+    .height53 { height : calc(53vh - #{$tabContainer3Height_1} ) }
+    .height52 { height : calc(52vh - #{$tabContainer3Height_1} ) }
+    .height51 { height : calc(51vh - #{$tabContainer3Height_1} ) }
+    .height50 { height : calc(50vh - #{$tabContainer3Height_1} ) }
+    .height49 { height : calc(49vh - #{$tabContainer3Height_1} ) }
+    .height48 { height : calc(48vh - #{$tabContainer3Height_1} ) }
+    .height47 { height : calc(47vh - #{$tabContainer3Height_1} ) }
+    .height46 { height : calc(46vh - #{$tabContainer3Height_1} ) }
+    .height45 { height : calc(45vh - #{$tabContainer3Height_1} ) }
+    .height44 { height : calc(44vh - #{$tabContainer3Height_1} ) }
+    .height43 { height : calc(43vh - #{$tabContainer3Height_1} ) }
+    .height42 { height : calc(42vh - #{$tabContainer3Height_1} ) }
+    .height41 { height : calc(41vh - #{$tabContainer3Height_1} ) }
+    .height40 { height : calc(40vh - #{$tabContainer3Height_1} ) }
+    .height39 { height : calc(39vh - #{$tabContainer3Height_1} ) }
+    .height38 { height : calc(38vh - #{$tabContainer3Height_1} ) }
+    .height37 { height : calc(37vh - #{$tabContainer3Height_1} ) }
+    .height36 { height : calc(36vh - #{$tabContainer3Height_1} ) }
+    .height35 { height : calc(35vh - #{$tabContainer3Height_1} ) }
+    .height34 { height : calc(34vh - #{$tabContainer3Height_1} ) }
+    .height33 { height : calc(33vh - #{$tabContainer3Height_1} ) }
+    .height32 { height : calc(32vh - #{$tabContainer3Height_1} ) }
+    .height31 { height : calc(31vh - #{$tabContainer3Height_1} ) }
+    .height30 { height : calc(30vh - #{$tabContainer3Height_1} ) }
+    .height29 { height : calc(29vh - #{$tabContainer3Height_1} ) }
+    .height28 { height : calc(28vh - #{$tabContainer3Height_1} ) }
+    .height27 { height : calc(27vh - #{$tabContainer3Height_1} ) }
+    .height26 { height : calc(26vh - #{$tabContainer3Height_1} ) }
+    .height25 { height : calc(25vh - #{$tabContainer3Height_1} ) }
+    .height24 { height : calc(24vh - #{$tabContainer3Height_1} ) }
+    .height23 { height : calc(23vh - #{$tabContainer3Height_1} ) }
+    .height22 { height : calc(22vh - #{$tabContainer3Height_1} ) }
+    .height21 { height : calc(21vh - #{$tabContainer3Height_1} ) }
+    .height20 { height : calc(20vh - #{$tabContainer3Height_1} ) }
+    .height19 { height : calc(19vh - #{$tabContainer3Height_1} ) }
+    .height18 { height : calc(18vh - #{$tabContainer3Height_1} ) }
+    .height17 { height : calc(17vh - #{$tabContainer3Height_1} ) }
+    .height16 { height : calc(16vh - #{$tabContainer3Height_1} ) }
+    .height15 { height : calc(15vh - #{$tabContainer3Height_1} ) }
+    .height14 { height : calc(14vh - #{$tabContainer3Height_1} ) }
+    .height13 { height : calc(13vh - #{$tabContainer3Height_1} ) }
+    .height12 { height : calc(12vh - #{$tabContainer3Height_1} ) }
+    .height11 { height : calc(11vh - #{$tabContainer3Height_1} ) }
+    .height10 { height : calc(10vh - #{$tabContainer3Height_1} ) }
+  }
+}
+
+
+@include desktop_qhd {
+  .height100 { height: 100vh; }
+  .height99 { height: 99vh; }
+  .height98 { height: 98vh; }
+  .height97 { height: 97vh; }
+  .height96 { height: 96vh; }
+  .height95 { height: 95vh; }
+  .height94 { height: 94vh; }
+  .height93 { height: 93vh; }
+  .height92 { height: 92vh; }
+  .height91 { height: 91vh; }
+  .height90 { height: 90vh; }
+  .height89 { height: 89vh; }
+  .height88 { height: 88vh; }
+  .height87 { height: 87vh; }
+  .height86 { height: 86vh; }
+  .height85 { height: 85vh; }
+  .height84 { height: 84vh; }
+  .height83 { height: 83vh; }
+  .height82 { height: 82vh; }
+  .height81 { height: 81vh; }
+  .height80 { height: 80vh; }
+  .height79 { height: 79vh; }
+  .height78 { height: 78vh; }
+  .height77 { height: 77vh; }
+  .height76 { height: 76vh; }
+  .height75 { height: 82vh; }
+  .height74 { height: 80vh; }
+  .height73 { height: 80vh; }
+  .height72 { height: 80vh; }
+  .height71 { height: 71vh; }
+  .height70 { height: 70vh; }
+  .height69 { height: 78vh; }
+  .height68 { height: 80vh; }
+  .height67 { height: 67vh; }
+  .height66 { height: 66vh; }
+  .height65 { height: 65vh; }
+  .height64 { height: 64vh; }
+  .height63 { height: 63vh; }
+  .height62 { height: 62vh; }
+  .height61 { height: 61vh; }
+  .height60 { height: 80vh; }
+  .height59 { height: 59vh; }
+  .height58 { height: 58vh; }
+  .height57 { height: 57vh; }
+  .height56 { height: 56vh; }
+  .height55 { height: 55vh; }
+  .height54 { height: 54vh; }
+  .height53 { height: 53vh; }
+  .height52 { height: 52vh; }
+  .height51 { height: 51vh; }
+  .height50 { height: 50vh; }
+  .height49 { height: 49vh; }
+  .height48 { height: 48vh; }
+  .height47 { height: 47vh; }
+  .height46 { height: 46vh; }
+  .height45 { height: 45vh; }
+  .height44 { height: 44vh; }
+  .height43 { height: 43vh; }
+  .height42 { height: 42vh; }
+  .height41 { height: 41vh; }
+  .height40 { height: 40vh; }
+  .height39 { height: 39vh; }
+  .height38 { height: 38vh; }
+  .height37 { height: 37vh; }
+  .height36 { height: 36vh; }
+  .height35 { height: 35vh; }
+  .height34 { height: 34vh; }
+  .height33 { height: 33vh; }
+  .height32 { height: 32vh; }
+  .height31 { height: 31vh; }
+  .height30 { height: 30vh; }
+  .height29 { height: 29vh; }
+  .height28 { height: 28vh; }
+  .height27 { height: 27vh; }
+  .height26 { height: 26vh; }
+  .height25 { height: 25vh; }
+  .height24 { height: 24vh; }
+  .height23 { height: 23vh; }
+  .height22 { height: 22vh; }
+  .height21 { height: 21vh; }
+  .height20 { height: 20vh; }
+  .height19 { height: 19vh; }
+  .height18 { height: 18vh; }
+  .height17 { height: 17vh; }
+  .height16 { height: 16vh; }
+  .height15 { height: 15vh; }
+  .height14 { height: 14vh; }
+  .height13 { height: 13vh; }
+  .height12 { height: 12vh; }
+  .height11 { height: 11vh; }
+  .height10 { height: 10vh; }
+  .height09 { height: 9vh; }
+  .height08 { height: 8vh; }
+  .height07 { height: 7vh; }
+  .height06 { height: 6vh; }
+  .height05 { height: 5vh; }
+  .height04 { height: 4vh; }
+  .height03 { height: 3vh; }
+  .height02 { height: 2vh; }
+  .height01 { height: 1vh; }
+
+  .width10 { min-width: 10%; width: 10% !important;}
+  .width11 { min-width: 11%; width: 11% !important;}
+  .width12 { min-width: 12%; width: 12% !important;}
+  .width13 { min-width: 13%; width: 13% !important;}
+  .width14 { min-width: 14%; width: 14% !important;}
+  .width15 { min-width: 15%; width: 15% !important;}
+  .width16 { min-width: 16%; width: 16% !important;}
+  .width17 { min-width: 17%; width: 17% !important;}
+  .width18 { min-width: 18%; width: 18% !important;}
+  .width19 { min-width: 19%; width: 19% !important;}
+  .width20 { min-width: 20%; width: 20% !important;}
+  .width21 { min-width: 21%; width: 21% !important;}
+  .width22 { min-width: 22%; width: 22% !important;}
+  .width23 { min-width: 23%; width: 23% !important;}
+  .width24 { min-width: 24%; width: 24% !important;}
+  .width25 { min-width: 25%; width: 25% !important;}
+  .width26 { min-width: 26%; width: 26% !important;}
+  .width27 { min-width: 27%; width: 27% !important;}
+  .width28 { min-width: 28%; width: 28% !important;}
+  .width29 { min-width: 29%; width: 29% !important;}
+  .width30 { min-width: 30%; width: 30% !important;}
+  .width31 { min-width: 31%; width: 31% !important;}
+  .width32 { min-width: 32%; width: 32% !important;}
+  .width33 { min-width: 33%; width: 33% !important;}
+  .width34 { min-width: 34%; width: 34% !important;}
+  .width35 { min-width: 35%; width: 35% !important;}
+  .width36 { min-width: 36%; width: 36% !important;}
+  .width37 { min-width: 37%; width: 37% !important;}
+  .width38 { min-width: 38%; width: 38% !important;}
+  .width39 { min-width: 39%; width: 39% !important;}
+  .width40 { min-width: 40%; width: 40% !important;}
+  .width41 { min-width: 41%; width: 41% !important;}
+  .width42 { min-width: 42%; width: 42% !important;}
+  .width43 { min-width: 43%; width: 43% !important;}
+  .width44 { min-width: 44%; width: 44% !important;}
+  .width45 { min-width: 45%; width: 45% !important;}
+  .width46 { min-width: 46%; width: 46% !important;}
+  .width47 { min-width: 47%; width: 47% !important;}
+  .width48 { min-width: 48%; width: 48% !important;}
+  .width49 { min-width: 49%; width: 49% !important;}
+  .width50 { min-width: 50%; width: 50% !important;}
+  .width51 { min-width: 51%; width: 51% !important;}
+  .width52 { min-width: 52%; width: 52% !important;}
+  .width53 { min-width: 53%; width: 53% !important;}
+  .width54 { min-width: 54%; width: 54% !important;}
+  .width55 { min-width: 55%; width: 55% !important;}
+  .width56 { min-width: 56%; width: 56% !important;}
+  .width57 { min-width: 57%; width: 57% !important;}
+  .width58 { min-width: 58%; width: 58% !important;}
+  .width59 { min-width: 59%; width: 59% !important;}
+  .width60 { min-width: 60%; width: 60% !important;}
+  .width61 { min-width: 61%; width: 61% !important;}
+  .width62 { min-width: 62%; width: 62% !important;}
+  .width63 { min-width: 63%; width: 63% !important;}
+  .width64 { min-width: 64%; width: 64% !important;}
+  .width65 { min-width: 65%; width: 65% !important;}
+  .width66 { min-width: 66%; width: 66% !important;}
+  .width67 { min-width: 67%; width: 67% !important;}
+  .width68 { min-width: 68%; width: 68% !important;}
+  .width69 { min-width: 69%; width: 69% !important;}
+  .width70 { min-width: 70%; width: 70% !important;}
+  .width71 { min-width: 71%; width: 71% !important;}
+  .width72 { min-width: 72%; width: 72% !important;}
+  .width73 { min-width: 73%; width: 73% !important;}
+  .width74 { min-width: 74%; width: 74% !important;}
+  .width75 { min-width: 75%; width: 75% !important;}
+  .width76 { min-width: 76%; width: 76% !important;}
+  .width77 { min-width: 77%; width: 77% !important;}
+  .width78 { min-width: 78%; width: 78% !important;}
+  .width79 { min-width: 79%; width: 79% !important;}
+  .width80 { min-width: 80%; width: 80% !important;}
+  .width81 { min-width: 81%; width: 81% !important;}
+  .width82 { min-width: 82%; width: 82% !important;}
+  .width83 { min-width: 83%; width: 83% !important;}
+  .width84 { min-width: 84%; width: 84% !important;}
+  .width85 { min-width: 85%; width: 85% !important;}
+  .width86 { min-width: 86%; width: 86% !important;}
+  .width87 { min-width: 87%; width: 87% !important;}
+  .width88 { min-width: 88%; width: 88% !important;}
+  .width89 { min-width: 89%; width: 89% !important;}
+  .width90 { min-width: 90%; width: 90% !important;}
+  .width91 { min-width: 91%; width: 91% !important;}
+  .width92 { min-width: 92%; width: 92% !important;}
+  .width93 { min-width: 93%; width: 93% !important;}
+  .width94 { min-width: 94%; width: 94% !important;}
+  .width95 { min-width: 95%; width: 95% !important;}
+  .width96 { min-width: 96%; width: 96% !important;}
+  .width97 { min-width: 97%; width: 97% !important;}
+  .width98 { min-width: 98%; width: 98% !important;}
+  .width99 { min-width: 99%; width: 99% !important;}
+  .width100 { min-width: 100%; width: 100% !important;}
+  .tab_content {
+    height: 960px !important;
+  }
+
+  .tab_content_2 {
+    height: 575px !important;
+  }
+
+  .tab_content_3 {
+    width: 100%;
+    height: 830px;
+    overflow: auto;
+  }
+
+  .tab_content_4 {
+    height: 520px !important;
+  }
+
+  .tab_container_1 {
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    overflow: auto;
+  }
+
+  .table_container_2 {
+    height: 960px !important;
+  }
+
+  .tab_content .msg_info_form_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    height: 460px;
+  }
+
+  .sql_wrapper .sql_box {
+    margin-top: 18px;
+    border: solid 1px #eaeff8;
+    min-height: 730px;
+  }
+
+  .main .msg_info_form_box {
+    max-height: 750px;
+    display: grid;
+    gap: 20px 30px;
+    grid-template-columns: 1fr 1fr;
+    padding: 24px 0 0;
+    overflow: auto;
+  }
+
+  .main .msg_info_form_triple_box {
+    max-height: 700px;
+    display: grid;
+    gap: 20px 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: auto;
+  }
+
+  .main .double_table_container .table_container_2 {
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px 25px 25px;
+    /* 2023-05-30 */
+    flex-basis: 25%;
+    overflow: auto;
+    max-height: 960px;
+  }
+
+  .main .double_table_container_11 .table_container_2 {
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px 25px 25px;
+    /* 2023-05-30 */
+    flex-basis: 25%;
+    overflow: auto;
+    max-height: 678px;
+  }
+
+  .tab_content .double_table_container_3 {
+    max-height: 678px;
+  }
+
+  .divHeight150 {
+    max-height: 150px;
+  }
+
+  .scroll-class {
+    height: 300px;
+  }
+
+  .scrollable-content {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+  }
+
+  .containerWidth10 {
+    width: 10vw !important;
+  }
+
+  .containerWidth15 {
+    width: 15vw !important;
+  }
+
+  .containerWidth20 {
+    width: 20vw !important;
+  }
+
+  .containerWidth25 {
+    width: 25vw !important;
+  }
+
+  .containerWidth30 {
+    width: 30vw !important;
+  }
+
+  .containerWidth35 {
+    width: 35vw !important;
+  }
+
+  .containerWidth40 {
+    width: 40vw !important;
+  }
+
+  .containerWidth45 {
+    width: 45vw !important;
+  }
+
+  .containerWidth50 {
+    width: 50vw !important;
+  }
+
+  .containerWidth55 {
+    width: 55vw !important;
+  }
+
+  .containerWidth60 {
+    width: 60vw !important;
+  }
+
+  .containerWidth65 {
+    width: 65vw !important;
+  }
+
+  .containerWidth70 {
+    width: 70vw !important;
+  }
+
+  .containerWidth75 {
+    width: 75vw !important;
+  }
+
+  .containerWidth80 {
+    width: 80vw !important;
+  }
+
+  .containerWidth85 {
+    width: 85vw !important;
+  }
+
+  .containerWidth90 {
+    width: 90vw !important;
+  }
+
+  .containerWidth95 {
+    width: 95vw !important;
+  }
+
+  .tab_content > .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer1Height} ) }
+    .height89 { height : calc(89vh - #{$tabContainer1Height} ) }
+    .height88 { height : calc(88vh - #{$tabContainer1Height} ) }
+    .height87 { height : calc(87vh - #{$tabContainer1Height} ) }
+    .height86 { height : calc(86vh - #{$tabContainer1Height} ) }
+    .height85 { height : calc(85vh - #{$tabContainer1Height} ) }
+    .height84 { height : calc(84vh - #{$tabContainer1Height} ) }
+    .height83 { height : calc(83vh - #{$tabContainer1Height} ) }
+    .height82 { height : calc(82vh - #{$tabContainer1Height} ) }
+    .height81 { height : calc(81vh - #{$tabContainer1Height} ) }
+    .height80 { height : calc(80vh - #{$tabContainer1Height} ) }
+    .height79 { height : calc(79vh - #{$tabContainer1Height} ) }
+    .height78 { height : calc(78vh - #{$tabContainer1Height} ) }
+    .height77 { height : calc(77vh - #{$tabContainer1Height} ) }
+    .height76 { height : calc(76vh - #{$tabContainer1Height} ) }
+    .height75 { height : calc(75vh - #{$tabContainer1Height} ) }
+    .height74 { height : calc(74vh - #{$tabContainer1Height} ) }
+    .height73 { height : calc(73vh - #{$tabContainer1Height} ) }
+    .height72 { height : calc(72vh - #{$tabContainer1Height} ) }
+    .height71 { height : calc(71vh - #{$tabContainer1Height} ) }
+    .height70 { height : calc(70vh - #{$tabContainer1Height} ) }
+    .height69 { height : calc(69vh - #{$tabContainer1Height} ) }
+    .height68 { height : calc(68vh - #{$tabContainer1Height} ) }
+    .height67 { height : calc(67vh - #{$tabContainer1Height} ) }
+    .height66 { height : calc(66vh - #{$tabContainer1Height} ) }
+    .height65 { height : calc(65vh - #{$tabContainer1Height} ) }
+    .height64 { height : calc(64vh - #{$tabContainer1Height} ) }
+    .height63 { height : calc(63vh - #{$tabContainer1Height} ) }
+    .height62 { height : calc(62vh - #{$tabContainer1Height} ) }
+    .height61 { height : calc(61vh - #{$tabContainer1Height} ) }
+    .height60 { height : calc(60vh - #{$tabContainer1Height} ) }
+    .height59 { height : calc(59vh - #{$tabContainer1Height} ) }
+    .height58 { height : calc(58vh - #{$tabContainer1Height} ) }
+    .height57 { height : calc(57vh - #{$tabContainer1Height} ) }
+    .height56 { height : calc(56vh - #{$tabContainer1Height} ) }
+    .height55 { height : calc(55vh - #{$tabContainer1Height} ) }
+    .height54 { height : calc(54vh - #{$tabContainer1Height} ) }
+    .height53 { height : calc(53vh - #{$tabContainer1Height} ) }
+    .height52 { height : calc(52vh - #{$tabContainer1Height} ) }
+    .height51 { height : calc(51vh - #{$tabContainer1Height} ) }
+    .height50 { height : calc(50vh - #{$tabContainer1Height} ) }
+    .height49 { height : calc(49vh - #{$tabContainer1Height} ) }
+    .height48 { height : calc(48vh - #{$tabContainer1Height} ) }
+    .height47 { height : calc(47vh - #{$tabContainer1Height} ) }
+    .height46 { height : calc(46vh - #{$tabContainer1Height} ) }
+    .height45 { height : calc(45vh - #{$tabContainer1Height} ) }
+    .height44 { height : calc(44vh - #{$tabContainer1Height} ) }
+    .height43 { height : calc(43vh - #{$tabContainer1Height} ) }
+    .height42 { height : calc(42vh - #{$tabContainer1Height} ) }
+    .height41 { height : calc(41vh - #{$tabContainer1Height} ) }
+    .height40 { height : calc(40vh - #{$tabContainer1Height} ) }
+    .height39 { height : calc(39vh - #{$tabContainer1Height} ) }
+    .height38 { height : calc(38vh - #{$tabContainer1Height} ) }
+    .height37 { height : calc(37vh - #{$tabContainer1Height} ) }
+    .height36 { height : calc(36vh - #{$tabContainer1Height} ) }
+    .height35 { height : calc(35vh - #{$tabContainer1Height} ) }
+    .height34 { height : calc(34vh - #{$tabContainer1Height} ) }
+    .height33 { height : calc(33vh - #{$tabContainer1Height} ) }
+    .height32 { height : calc(32vh - #{$tabContainer1Height} ) }
+    .height31 { height : calc(31vh - #{$tabContainer1Height} ) }
+    .height30 { height : calc(30vh - #{$tabContainer1Height} ) }
+    .height29 { height : calc(29vh - #{$tabContainer1Height} ) }
+    .height28 { height : calc(28vh - #{$tabContainer1Height} ) }
+    .height27 { height : calc(27vh - #{$tabContainer1Height} ) }
+    .height26 { height : calc(26vh - #{$tabContainer1Height} ) }
+    .height25 { height : calc(25vh - #{$tabContainer1Height} ) }
+    .height24 { height : calc(24vh - #{$tabContainer1Height} ) }
+    .height23 { height : calc(23vh - #{$tabContainer1Height} ) }
+    .height22 { height : calc(22vh - #{$tabContainer1Height} ) }
+    .height21 { height : calc(21vh - #{$tabContainer1Height} ) }
+    .height20 { height : calc(20vh - #{$tabContainer1Height} ) }
+    .height19 { height : calc(19vh - #{$tabContainer1Height} ) }
+    .height18 { height : calc(18vh - #{$tabContainer1Height} ) }
+    .height17 { height : calc(17vh - #{$tabContainer1Height} ) }
+    .height16 { height : calc(16vh - #{$tabContainer1Height} ) }
+    .height15 { height : calc(15vh - #{$tabContainer1Height} ) }
+    .height14 { height : calc(14vh - #{$tabContainer1Height} ) }
+    .height13 { height : calc(13vh - #{$tabContainer1Height} ) }
+    .height12 { height : calc(12vh - #{$tabContainer1Height} ) }
+    .height11 { height : calc(11vh - #{$tabContainer1Height} ) }
+    .height10 { height : calc(10vh - #{$tabContainer1Height} ) }
+  }
+
+  .tab_content:has(> .table_top_button_wrapper) > .table_scroll_box ,
+  .tab_content .msg_info_form_box_2 .table_scroll_box
+  {
+    .height90 { height : calc(90vh - #{$tabContainer1Height_1} ) }
+    .height89 { height : calc(89vh - #{$tabContainer1Height_1} ) }
+    .height88 { height : calc(88vh - #{$tabContainer1Height_1} ) }
+    .height87 { height : calc(87vh - #{$tabContainer1Height_1} ) }
+    .height86 { height : calc(86vh - #{$tabContainer1Height_1} ) }
+    .height85 { height : calc(85vh - #{$tabContainer1Height_1} ) }
+    .height84 { height : calc(84vh - #{$tabContainer1Height_1} ) }
+    .height83 { height : calc(83vh - #{$tabContainer1Height_1} ) }
+    .height82 { height : calc(82vh - #{$tabContainer1Height_1} ) }
+    .height81 { height : calc(81vh - #{$tabContainer1Height_1} ) }
+    .height80 { height : calc(80vh - #{$tabContainer1Height_1} ) }
+    .height79 { height : calc(79vh - #{$tabContainer1Height_1} ) }
+    .height78 { height : calc(78vh - #{$tabContainer1Height_1} ) }
+    .height77 { height : calc(77vh - #{$tabContainer1Height_1} ) }
+    .height76 { height : calc(76vh - #{$tabContainer1Height_1} ) }
+    .height75 { height : calc(75vh - #{$tabContainer1Height_1} ) }
+    .height74 { height : calc(74vh - #{$tabContainer1Height_1} ) }
+    .height73 { height : calc(73vh - #{$tabContainer1Height_1} ) }
+    .height72 { height : calc(72vh - #{$tabContainer1Height_1} ) }
+    .height71 { height : calc(71vh - #{$tabContainer1Height_1} ) }
+    .height70 { height : calc(70vh - #{$tabContainer1Height_1} ) }
+    .height69 { height : calc(69vh - #{$tabContainer1Height_1} ) }
+    .height68 { height : calc(68vh - #{$tabContainer1Height_1} ) }
+    .height67 { height : calc(67vh - #{$tabContainer1Height_1} ) }
+    .height66 { height : calc(66vh - #{$tabContainer1Height_1} ) }
+    .height65 { height : calc(65vh - #{$tabContainer1Height_1} ) }
+    .height64 { height : calc(64vh - #{$tabContainer1Height_1} ) }
+    .height63 { height : calc(63vh - #{$tabContainer1Height_1} ) }
+    .height62 { height : calc(62vh - #{$tabContainer1Height_1} ) }
+    .height61 { height : calc(61vh - #{$tabContainer1Height_1} ) }
+    .height60 { height : calc(60vh - #{$tabContainer1Height_1} ) }
+    .height59 { height : calc(59vh - #{$tabContainer1Height_1} ) }
+    .height58 { height : calc(58vh - #{$tabContainer1Height_1} ) }
+    .height57 { height : calc(57vh - #{$tabContainer1Height_1} ) }
+    .height56 { height : calc(56vh - #{$tabContainer1Height_1} ) }
+    .height55 { height : calc(55vh - #{$tabContainer1Height_1} ) }
+    .height54 { height : calc(54vh - #{$tabContainer1Height_1} ) }
+    .height53 { height : calc(53vh - #{$tabContainer1Height_1} ) }
+    .height52 { height : calc(52vh - #{$tabContainer1Height_1} ) }
+    .height51 { height : calc(51vh - #{$tabContainer1Height_1} ) }
+    .height50 { height : calc(50vh - #{$tabContainer1Height_1} ) }
+    .height49 { height : calc(49vh - #{$tabContainer1Height_1} ) }
+    .height48 { height : calc(48vh - #{$tabContainer1Height_1} ) }
+    .height47 { height : calc(47vh - #{$tabContainer1Height_1} ) }
+    .height46 { height : calc(46vh - #{$tabContainer1Height_1} ) }
+    .height45 { height : calc(45vh - #{$tabContainer1Height_1} ) }
+    .height44 { height : calc(44vh - #{$tabContainer1Height_1} ) }
+    .height43 { height : calc(43vh - #{$tabContainer1Height_1} ) }
+    .height42 { height : calc(42vh - #{$tabContainer1Height_1} ) }
+    .height41 { height : calc(41vh - #{$tabContainer1Height_1} ) }
+    .height40 { height : calc(40vh - #{$tabContainer1Height_1} ) }
+    .height39 { height : calc(39vh - #{$tabContainer1Height_1} ) }
+    .height38 { height : calc(38vh - #{$tabContainer1Height_1} ) }
+    .height37 { height : calc(37vh - #{$tabContainer1Height_1} ) }
+    .height36 { height : calc(36vh - #{$tabContainer1Height_1} ) }
+    .height35 { height : calc(35vh - #{$tabContainer1Height_1} ) }
+    .height34 { height : calc(34vh - #{$tabContainer1Height_1} ) }
+    .height33 { height : calc(33vh - #{$tabContainer1Height_1} ) }
+    .height32 { height : calc(32vh - #{$tabContainer1Height_1} ) }
+    .height31 { height : calc(31vh - #{$tabContainer1Height_1} ) }
+    .height30 { height : calc(30vh - #{$tabContainer1Height_1} ) }
+    .height29 { height : calc(29vh - #{$tabContainer1Height_1} ) }
+    .height28 { height : calc(28vh - #{$tabContainer1Height_1} ) }
+    .height27 { height : calc(27vh - #{$tabContainer1Height_1} ) }
+    .height26 { height : calc(26vh - #{$tabContainer1Height_1} ) }
+    .height25 { height : calc(25vh - #{$tabContainer1Height_1} ) }
+    .height24 { height : calc(24vh - #{$tabContainer1Height_1} ) }
+    .height23 { height : calc(23vh - #{$tabContainer1Height_1} ) }
+    .height22 { height : calc(22vh - #{$tabContainer1Height_1} ) }
+    .height21 { height : calc(21vh - #{$tabContainer1Height_1} ) }
+    .height20 { height : calc(20vh - #{$tabContainer1Height_1} ) }
+    .height19 { height : calc(19vh - #{$tabContainer1Height_1} ) }
+    .height18 { height : calc(18vh - #{$tabContainer1Height_1} ) }
+    .height17 { height : calc(17vh - #{$tabContainer1Height_1} ) }
+    .height16 { height : calc(16vh - #{$tabContainer1Height_1} ) }
+    .height15 { height : calc(15vh - #{$tabContainer1Height_1} ) }
+    .height14 { height : calc(14vh - #{$tabContainer1Height_1} ) }
+    .height13 { height : calc(13vh - #{$tabContainer1Height_1} ) }
+    .height12 { height : calc(12vh - #{$tabContainer1Height_1} ) }
+    .height11 { height : calc(11vh - #{$tabContainer1Height_1} ) }
+    .height10 { height : calc(10vh - #{$tabContainer1Height_1} ) }
+  }
+
+  .tab_content .double_table_container .table_container .table_scroll_box {
+      .height90 { height : calc(90vh - #{$tabContainer2Height} ) }
+      .height89 { height : calc(89vh - #{$tabContainer2Height} ) }
+      .height88 { height : calc(88vh - #{$tabContainer2Height} ) }
+      .height87 { height : calc(87vh - #{$tabContainer2Height} ) }
+      .height86 { height : calc(86vh - #{$tabContainer2Height} ) }
+      .height85 { height : calc(85vh - #{$tabContainer2Height} ) }
+      .height84 { height : calc(84vh - #{$tabContainer2Height} ) }
+      .height83 { height : calc(83vh - #{$tabContainer2Height} ) }
+      .height82 { height : calc(82vh - #{$tabContainer2Height} ) }
+      .height81 { height : calc(81vh - #{$tabContainer2Height} ) }
+      .height80 { height : calc(80vh - #{$tabContainer2Height} ) }
+      .height79 { height : calc(79vh - #{$tabContainer2Height} ) }
+      .height78 { height : calc(78vh - #{$tabContainer2Height} ) }
+      .height77 { height : calc(77vh - #{$tabContainer2Height} ) }
+      .height76 { height : calc(76vh - #{$tabContainer2Height} ) }
+      .height75 { height : calc(75vh - #{$tabContainer2Height} ) }
+      .height74 { height : calc(74vh - #{$tabContainer2Height} ) }
+      .height73 { height : calc(73vh - #{$tabContainer2Height} ) }
+      .height72 { height : calc(72vh - #{$tabContainer2Height} ) }
+      .height71 { height : calc(71vh - #{$tabContainer2Height} ) }
+      .height70 { height : calc(70vh - #{$tabContainer2Height} ) }
+      .height69 { height : calc(69vh - #{$tabContainer2Height} ) }
+      .height68 { height : calc(68vh - #{$tabContainer2Height} ) }
+      .height67 { height : calc(67vh - #{$tabContainer2Height} ) }
+      .height66 { height : calc(66vh - #{$tabContainer2Height} ) }
+      .height65 { height : calc(65vh - #{$tabContainer2Height} ) }
+      .height64 { height : calc(64vh - #{$tabContainer2Height} ) }
+      .height63 { height : calc(63vh - #{$tabContainer2Height} ) }
+      .height62 { height : calc(62vh - #{$tabContainer2Height} ) }
+      .height61 { height : calc(61vh - #{$tabContainer2Height} ) }
+      .height60 { height : calc(60vh - #{$tabContainer2Height} ) }
+      .height59 { height : calc(59vh - #{$tabContainer2Height} ) }
+      .height58 { height : calc(58vh - #{$tabContainer2Height} ) }
+      .height57 { height : calc(57vh - #{$tabContainer2Height} ) }
+      .height56 { height : calc(56vh - #{$tabContainer2Height} ) }
+      .height55 { height : calc(55vh - #{$tabContainer2Height} ) }
+      .height54 { height : calc(54vh - #{$tabContainer2Height} ) }
+      .height53 { height : calc(53vh - #{$tabContainer2Height} ) }
+      .height52 { height : calc(52vh - #{$tabContainer2Height} ) }
+      .height51 { height : calc(51vh - #{$tabContainer2Height} ) }
+      .height50 { height : calc(50vh - #{$tabContainer2Height} ) }
+      .height49 { height : calc(49vh - #{$tabContainer2Height} ) }
+      .height48 { height : calc(48vh - #{$tabContainer2Height} ) }
+      .height47 { height : calc(47vh - #{$tabContainer2Height} ) }
+      .height46 { height : calc(46vh - #{$tabContainer2Height} ) }
+      .height45 { height : calc(45vh - #{$tabContainer2Height} ) }
+      .height44 { height : calc(44vh - #{$tabContainer2Height} ) }
+      .height43 { height : calc(43vh - #{$tabContainer2Height} ) }
+      .height42 { height : calc(42vh - #{$tabContainer2Height} ) }
+      .height41 { height : calc(41vh - #{$tabContainer2Height} ) }
+      .height40 { height : calc(40vh - #{$tabContainer2Height} ) }
+      .height39 { height : calc(39vh - #{$tabContainer2Height} ) }
+      .height38 { height : calc(38vh - #{$tabContainer2Height} ) }
+      .height37 { height : calc(37vh - #{$tabContainer2Height} ) }
+      .height36 { height : calc(36vh - #{$tabContainer2Height} ) }
+      .height35 { height : calc(35vh - #{$tabContainer2Height} ) }
+      .height34 { height : calc(34vh - #{$tabContainer2Height} ) }
+      .height33 { height : calc(33vh - #{$tabContainer2Height} ) }
+      .height32 { height : calc(32vh - #{$tabContainer2Height} ) }
+      .height31 { height : calc(31vh - #{$tabContainer2Height} ) }
+      .height30 { height : calc(30vh - #{$tabContainer2Height} ) }
+      .height29 { height : calc(29vh - #{$tabContainer2Height} ) }
+      .height28 { height : calc(28vh - #{$tabContainer2Height} ) }
+      .height27 { height : calc(27vh - #{$tabContainer2Height} ) }
+      .height26 { height : calc(26vh - #{$tabContainer2Height} ) }
+      .height25 { height : calc(25vh - #{$tabContainer2Height} ) }
+      .height24 { height : calc(24vh - #{$tabContainer2Height} ) }
+      .height23 { height : calc(23vh - #{$tabContainer2Height} ) }
+      .height22 { height : calc(22vh - #{$tabContainer2Height} ) }
+      .height21 { height : calc(21vh - #{$tabContainer2Height} ) }
+      .height20 { height : calc(20vh - #{$tabContainer2Height} ) }
+      .height19 { height : calc(19vh - #{$tabContainer2Height} ) }
+      .height18 { height : calc(18vh - #{$tabContainer2Height} ) }
+      .height17 { height : calc(17vh - #{$tabContainer2Height} ) }
+      .height16 { height : calc(16vh - #{$tabContainer2Height} ) }
+      .height15 { height : calc(15vh - #{$tabContainer2Height} ) }
+      .height14 { height : calc(14vh - #{$tabContainer2Height} ) }
+      .height13 { height : calc(13vh - #{$tabContainer2Height} ) }
+      .height12 { height : calc(12vh - #{$tabContainer2Height} ) }
+      .height11 { height : calc(11vh - #{$tabContainer2Height} ) }
+      .height10 { height : calc(10vh - #{$tabContainer2Height} ) }
+  }
+
+  .tab_content .double_table_container .table_container:has(> .table_top_button_wrapper) .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer2Height_1} ) }
+    .height89 { height : calc(89vh - #{$tabContainer2Height_1} ) }
+    .height88 { height : calc(88vh - #{$tabContainer2Height_1} ) }
+    .height87 { height : calc(87vh - #{$tabContainer2Height_1} ) }
+    .height86 { height : calc(86vh - #{$tabContainer2Height_1} ) }
+    .height85 { height : calc(85vh - #{$tabContainer2Height_1} ) }
+    .height84 { height : calc(84vh - #{$tabContainer2Height_1} ) }
+    .height83 { height : calc(83vh - #{$tabContainer2Height_1} ) }
+    .height82 { height : calc(82vh - #{$tabContainer2Height_1} ) }
+    .height81 { height : calc(81vh - #{$tabContainer2Height_1} ) }
+    .height80 { height : calc(80vh - #{$tabContainer2Height_1} ) }
+    .height79 { height : calc(79vh - #{$tabContainer2Height_1} ) }
+    .height78 { height : calc(78vh - #{$tabContainer2Height_1} ) }
+    .height77 { height : calc(77vh - #{$tabContainer2Height_1} ) }
+    .height76 { height : calc(76vh - #{$tabContainer2Height_1} ) }
+    .height75 { height : calc(75vh - #{$tabContainer2Height_1} ) }
+    .height74 { height : calc(74vh - #{$tabContainer2Height_1} ) }
+    .height73 { height : calc(73vh - #{$tabContainer2Height_1} ) }
+    .height72 { height : calc(72vh - #{$tabContainer2Height_1} ) }
+    .height71 { height : calc(71vh - #{$tabContainer2Height_1} ) }
+    .height70 { height : calc(70vh - #{$tabContainer2Height_1} ) }
+    .height69 { height : calc(69vh - #{$tabContainer2Height_1} ) }
+    .height68 { height : calc(68vh - #{$tabContainer2Height_1} ) }
+    .height67 { height : calc(67vh - #{$tabContainer2Height_1} ) }
+    .height66 { height : calc(66vh - #{$tabContainer2Height_1} ) }
+    .height65 { height : calc(65vh - #{$tabContainer2Height_1} ) }
+    .height64 { height : calc(64vh - #{$tabContainer2Height_1} ) }
+    .height63 { height : calc(63vh - #{$tabContainer2Height_1} ) }
+    .height62 { height : calc(62vh - #{$tabContainer2Height_1} ) }
+    .height61 { height : calc(61vh - #{$tabContainer2Height_1} ) }
+    .height60 { height : calc(60vh - #{$tabContainer2Height_1} ) }
+    .height59 { height : calc(59vh - #{$tabContainer2Height_1} ) }
+    .height58 { height : calc(58vh - #{$tabContainer2Height_1} ) }
+    .height57 { height : calc(57vh - #{$tabContainer2Height_1} ) }
+    .height56 { height : calc(56vh - #{$tabContainer2Height_1} ) }
+    .height55 { height : calc(55vh - #{$tabContainer2Height_1} ) }
+    .height54 { height : calc(54vh - #{$tabContainer2Height_1} ) }
+    .height53 { height : calc(53vh - #{$tabContainer2Height_1} ) }
+    .height52 { height : calc(52vh - #{$tabContainer2Height_1} ) }
+    .height51 { height : calc(51vh - #{$tabContainer2Height_1} ) }
+    .height50 { height : calc(50vh - #{$tabContainer2Height_1} ) }
+    .height49 { height : calc(49vh - #{$tabContainer2Height_1} ) }
+    .height48 { height : calc(48vh - #{$tabContainer2Height_1} ) }
+    .height47 { height : calc(47vh - #{$tabContainer2Height_1} ) }
+    .height46 { height : calc(46vh - #{$tabContainer2Height_1} ) }
+    .height45 { height : calc(45vh - #{$tabContainer2Height_1} ) }
+    .height44 { height : calc(44vh - #{$tabContainer2Height_1} ) }
+    .height43 { height : calc(43vh - #{$tabContainer2Height_1} ) }
+    .height42 { height : calc(42vh - #{$tabContainer2Height_1} ) }
+    .height41 { height : calc(41vh - #{$tabContainer2Height_1} ) }
+    .height40 { height : calc(40vh - #{$tabContainer2Height_1} ) }
+    .height39 { height : calc(39vh - #{$tabContainer2Height_1} ) }
+    .height38 { height : calc(38vh - #{$tabContainer2Height_1} ) }
+    .height37 { height : calc(37vh - #{$tabContainer2Height_1} ) }
+    .height36 { height : calc(36vh - #{$tabContainer2Height_1} ) }
+    .height35 { height : calc(35vh - #{$tabContainer2Height_1} ) }
+    .height34 { height : calc(34vh - #{$tabContainer2Height_1} ) }
+    .height33 { height : calc(33vh - #{$tabContainer2Height_1} ) }
+    .height32 { height : calc(32vh - #{$tabContainer2Height_1} ) }
+    .height31 { height : calc(31vh - #{$tabContainer2Height_1} ) }
+    .height30 { height : calc(30vh - #{$tabContainer2Height_1} ) }
+    .height29 { height : calc(29vh - #{$tabContainer2Height_1} ) }
+    .height28 { height : calc(28vh - #{$tabContainer2Height_1} ) }
+    .height27 { height : calc(27vh - #{$tabContainer2Height_1} ) }
+    .height26 { height : calc(26vh - #{$tabContainer2Height_1} ) }
+    .height25 { height : calc(25vh - #{$tabContainer2Height_1} ) }
+    .height24 { height : calc(24vh - #{$tabContainer2Height_1} ) }
+    .height23 { height : calc(23vh - #{$tabContainer2Height_1} ) }
+    .height22 { height : calc(22vh - #{$tabContainer2Height_1} ) }
+    .height21 { height : calc(21vh - #{$tabContainer2Height_1} ) }
+    .height20 { height : calc(20vh - #{$tabContainer2Height_1} ) }
+    .height19 { height : calc(19vh - #{$tabContainer2Height_1} ) }
+    .height18 { height : calc(18vh - #{$tabContainer2Height_1} ) }
+    .height17 { height : calc(17vh - #{$tabContainer2Height_1} ) }
+    .height16 { height : calc(16vh - #{$tabContainer2Height_1} ) }
+    .height15 { height : calc(15vh - #{$tabContainer2Height_1} ) }
+    .height14 { height : calc(14vh - #{$tabContainer2Height_1} ) }
+    .height13 { height : calc(13vh - #{$tabContainer2Height_1} ) }
+    .height12 { height : calc(12vh - #{$tabContainer2Height_1} ) }
+    .height11 { height : calc(11vh - #{$tabContainer2Height_1} ) }
+    .height10 { height : calc(10vh - #{$tabContainer2Height_1} ) }
+  }
+
+  .main .double_table_container_3 .table_container .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer3Height} ) }
+    .height89 { height : calc(89vh - #{$tabContainer3Height} ) }
+    .height88 { height : calc(88vh - #{$tabContainer3Height} ) }
+    .height87 { height : calc(87vh - #{$tabContainer3Height} ) }
+    .height86 { height : calc(86vh - #{$tabContainer3Height} ) }
+    .height85 { height : calc(85vh - #{$tabContainer3Height} ) }
+    .height84 { height : calc(84vh - #{$tabContainer3Height} ) }
+    .height83 { height : calc(83vh - #{$tabContainer3Height} ) }
+    .height82 { height : calc(82vh - #{$tabContainer3Height} ) }
+    .height81 { height : calc(81vh - #{$tabContainer3Height} ) }
+    .height80 { height : calc(80vh - #{$tabContainer3Height} ) }
+    .height79 { height : calc(79vh - #{$tabContainer3Height} ) }
+    .height78 { height : calc(78vh - #{$tabContainer3Height} ) }
+    .height77 { height : calc(77vh - #{$tabContainer3Height} ) }
+    .height76 { height : calc(76vh - #{$tabContainer3Height} ) }
+    .height75 { height : calc(75vh - #{$tabContainer3Height} ) }
+    .height74 { height : calc(74vh - #{$tabContainer3Height} ) }
+    .height73 { height : calc(73vh - #{$tabContainer3Height} ) }
+    .height72 { height : calc(72vh - #{$tabContainer3Height} ) }
+    .height71 { height : calc(71vh - #{$tabContainer3Height} ) }
+    .height70 { height : calc(70vh - #{$tabContainer3Height} ) }
+    .height69 { height : calc(69vh - #{$tabContainer3Height} ) }
+    .height68 { height : calc(68vh - #{$tabContainer3Height} ) }
+    .height67 { height : calc(67vh - #{$tabContainer3Height} ) }
+    .height66 { height : calc(66vh - #{$tabContainer3Height} ) }
+    .height65 { height : calc(65vh - #{$tabContainer3Height} ) }
+    .height64 { height : calc(64vh - #{$tabContainer3Height} ) }
+    .height63 { height : calc(63vh - #{$tabContainer3Height} ) }
+    .height62 { height : calc(62vh - #{$tabContainer3Height} ) }
+    .height61 { height : calc(61vh - #{$tabContainer3Height} ) }
+    .height60 { height : calc(60vh - #{$tabContainer3Height} ) }
+    .height59 { height : calc(59vh - #{$tabContainer3Height} ) }
+    .height58 { height : calc(58vh - #{$tabContainer3Height} ) }
+    .height57 { height : calc(57vh - #{$tabContainer3Height} ) }
+    .height56 { height : calc(56vh - #{$tabContainer3Height} ) }
+    .height55 { height : calc(55vh - #{$tabContainer3Height} ) }
+    .height54 { height : calc(54vh - #{$tabContainer3Height} ) }
+    .height53 { height : calc(53vh - #{$tabContainer3Height} ) }
+    .height52 { height : calc(52vh - #{$tabContainer3Height} ) }
+    .height51 { height : calc(51vh - #{$tabContainer3Height} ) }
+    .height50 { height : calc(50vh - #{$tabContainer3Height} ) }
+    .height49 { height : calc(49vh - #{$tabContainer3Height} ) }
+    .height48 { height : calc(48vh - #{$tabContainer3Height} ) }
+    .height47 { height : calc(47vh - #{$tabContainer3Height} ) }
+    .height46 { height : calc(46vh - #{$tabContainer3Height} ) }
+    .height45 { height : calc(45vh - #{$tabContainer3Height} ) }
+    .height44 { height : calc(44vh - #{$tabContainer3Height} ) }
+    .height43 { height : calc(43vh - #{$tabContainer3Height} ) }
+    .height42 { height : calc(42vh - #{$tabContainer3Height} ) }
+    .height41 { height : calc(41vh - #{$tabContainer3Height} ) }
+    .height40 { height : calc(40vh - #{$tabContainer3Height} ) }
+    .height39 { height : calc(39vh - #{$tabContainer3Height} ) }
+    .height38 { height : calc(38vh - #{$tabContainer3Height} ) }
+    .height37 { height : calc(37vh - #{$tabContainer3Height} ) }
+    .height36 { height : calc(36vh - #{$tabContainer3Height} ) }
+    .height35 { height : calc(35vh - #{$tabContainer3Height} ) }
+    .height34 { height : calc(34vh - #{$tabContainer3Height} ) }
+    .height33 { height : calc(33vh - #{$tabContainer3Height} ) }
+    .height32 { height : calc(32vh - #{$tabContainer3Height} ) }
+    .height31 { height : calc(31vh - #{$tabContainer3Height} ) }
+    .height30 { height : calc(30vh - #{$tabContainer3Height} ) }
+    .height29 { height : calc(29vh - #{$tabContainer3Height} ) }
+    .height28 { height : calc(28vh - #{$tabContainer3Height} ) }
+    .height27 { height : calc(27vh - #{$tabContainer3Height} ) }
+    .height26 { height : calc(26vh - #{$tabContainer3Height} ) }
+    .height25 { height : calc(25vh - #{$tabContainer3Height} ) }
+    .height24 { height : calc(24vh - #{$tabContainer3Height} ) }
+    .height23 { height : calc(23vh - #{$tabContainer3Height} ) }
+    .height22 { height : calc(22vh - #{$tabContainer3Height} ) }
+    .height21 { height : calc(21vh - #{$tabContainer3Height} ) }
+    .height20 { height : calc(20vh - #{$tabContainer3Height} ) }
+    .height19 { height : calc(19vh - #{$tabContainer3Height} ) }
+    .height18 { height : calc(18vh - #{$tabContainer3Height} ) }
+    .height17 { height : calc(17vh - #{$tabContainer3Height} ) }
+    .height16 { height : calc(16vh - #{$tabContainer3Height} ) }
+    .height15 { height : calc(15vh - #{$tabContainer3Height} ) }
+    .height14 { height : calc(14vh - #{$tabContainer3Height} ) }
+    .height13 { height : calc(13vh - #{$tabContainer3Height} ) }
+    .height12 { height : calc(12vh - #{$tabContainer3Height} ) }
+    .height11 { height : calc(11vh - #{$tabContainer3Height} ) }
+    .height10 { height : calc(10vh - #{$tabContainer3Height} ) }
+  }
+
+  .main .double_table_container_3 .table_container:has(> .table_top_button_wrapper) .table_scroll_box {
+    .height90 { height : calc(90vh - #{$tabContainer3Height_1} ) }
+    .height89 { height : calc(89vh - #{$tabContainer3Height_1} ) }
+    .height88 { height : calc(88vh - #{$tabContainer3Height_1} ) }
+    .height87 { height : calc(87vh - #{$tabContainer3Height_1} ) }
+    .height86 { height : calc(86vh - #{$tabContainer3Height_1} ) }
+    .height85 { height : calc(85vh - #{$tabContainer3Height_1} ) }
+    .height84 { height : calc(84vh - #{$tabContainer3Height_1} ) }
+    .height83 { height : calc(83vh - #{$tabContainer3Height_1} ) }
+    .height82 { height : calc(82vh - #{$tabContainer3Height_1} ) }
+    .height81 { height : calc(81vh - #{$tabContainer3Height_1} ) }
+    .height80 { height : calc(80vh - #{$tabContainer3Height_1} ) }
+    .height79 { height : calc(79vh - #{$tabContainer3Height_1} ) }
+    .height78 { height : calc(78vh - #{$tabContainer3Height_1} ) }
+    .height77 { height : calc(77vh - #{$tabContainer3Height_1} ) }
+    .height76 { height : calc(76vh - #{$tabContainer3Height_1} ) }
+    .height75 { height : calc(75vh - #{$tabContainer3Height_1} ) }
+    .height74 { height : calc(74vh - #{$tabContainer3Height_1} ) }
+    .height73 { height : calc(73vh - #{$tabContainer3Height_1} ) }
+    .height72 { height : calc(72vh - #{$tabContainer3Height_1} ) }
+    .height71 { height : calc(71vh - #{$tabContainer3Height_1} ) }
+    .height70 { height : calc(70vh - #{$tabContainer3Height_1} ) }
+    .height69 { height : calc(69vh - #{$tabContainer3Height_1} ) }
+    .height68 { height : calc(68vh - #{$tabContainer3Height_1} ) }
+    .height67 { height : calc(67vh - #{$tabContainer3Height_1} ) }
+    .height66 { height : calc(66vh - #{$tabContainer3Height_1} ) }
+    .height65 { height : calc(65vh - #{$tabContainer3Height_1} ) }
+    .height64 { height : calc(64vh - #{$tabContainer3Height_1} ) }
+    .height63 { height : calc(63vh - #{$tabContainer3Height_1} ) }
+    .height62 { height : calc(62vh - #{$tabContainer3Height_1} ) }
+    .height61 { height : calc(61vh - #{$tabContainer3Height_1} ) }
+    .height60 { height : calc(60vh - #{$tabContainer3Height_1} ) }
+    .height59 { height : calc(59vh - #{$tabContainer3Height_1} ) }
+    .height58 { height : calc(58vh - #{$tabContainer3Height_1} ) }
+    .height57 { height : calc(57vh - #{$tabContainer3Height_1} ) }
+    .height56 { height : calc(56vh - #{$tabContainer3Height_1} ) }
+    .height55 { height : calc(55vh - #{$tabContainer3Height_1} ) }
+    .height54 { height : calc(54vh - #{$tabContainer3Height_1} ) }
+    .height53 { height : calc(53vh - #{$tabContainer3Height_1} ) }
+    .height52 { height : calc(52vh - #{$tabContainer3Height_1} ) }
+    .height51 { height : calc(51vh - #{$tabContainer3Height_1} ) }
+    .height50 { height : calc(50vh - #{$tabContainer3Height_1} ) }
+    .height49 { height : calc(49vh - #{$tabContainer3Height_1} ) }
+    .height48 { height : calc(48vh - #{$tabContainer3Height_1} ) }
+    .height47 { height : calc(47vh - #{$tabContainer3Height_1} ) }
+    .height46 { height : calc(46vh - #{$tabContainer3Height_1} ) }
+    .height45 { height : calc(45vh - #{$tabContainer3Height_1} ) }
+    .height44 { height : calc(44vh - #{$tabContainer3Height_1} ) }
+    .height43 { height : calc(43vh - #{$tabContainer3Height_1} ) }
+    .height42 { height : calc(42vh - #{$tabContainer3Height_1} ) }
+    .height41 { height : calc(41vh - #{$tabContainer3Height_1} ) }
+    .height40 { height : calc(40vh - #{$tabContainer3Height_1} ) }
+    .height39 { height : calc(39vh - #{$tabContainer3Height_1} ) }
+    .height38 { height : calc(38vh - #{$tabContainer3Height_1} ) }
+    .height37 { height : calc(37vh - #{$tabContainer3Height_1} ) }
+    .height36 { height : calc(36vh - #{$tabContainer3Height_1} ) }
+    .height35 { height : calc(35vh - #{$tabContainer3Height_1} ) }
+    .height34 { height : calc(34vh - #{$tabContainer3Height_1} ) }
+    .height33 { height : calc(33vh - #{$tabContainer3Height_1} ) }
+    .height32 { height : calc(32vh - #{$tabContainer3Height_1} ) }
+    .height31 { height : calc(31vh - #{$tabContainer3Height_1} ) }
+    .height30 { height : calc(30vh - #{$tabContainer3Height_1} ) }
+    .height29 { height : calc(29vh - #{$tabContainer3Height_1} ) }
+    .height28 { height : calc(28vh - #{$tabContainer3Height_1} ) }
+    .height27 { height : calc(27vh - #{$tabContainer3Height_1} ) }
+    .height26 { height : calc(26vh - #{$tabContainer3Height_1} ) }
+    .height25 { height : calc(25vh - #{$tabContainer3Height_1} ) }
+    .height24 { height : calc(24vh - #{$tabContainer3Height_1} ) }
+    .height23 { height : calc(23vh - #{$tabContainer3Height_1} ) }
+    .height22 { height : calc(22vh - #{$tabContainer3Height_1} ) }
+    .height21 { height : calc(21vh - #{$tabContainer3Height_1} ) }
+    .height20 { height : calc(20vh - #{$tabContainer3Height_1} ) }
+    .height19 { height : calc(19vh - #{$tabContainer3Height_1} ) }
+    .height18 { height : calc(18vh - #{$tabContainer3Height_1} ) }
+    .height17 { height : calc(17vh - #{$tabContainer3Height_1} ) }
+    .height16 { height : calc(16vh - #{$tabContainer3Height_1} ) }
+    .height15 { height : calc(15vh - #{$tabContainer3Height_1} ) }
+    .height14 { height : calc(14vh - #{$tabContainer3Height_1} ) }
+    .height13 { height : calc(13vh - #{$tabContainer3Height_1} ) }
+    .height12 { height : calc(12vh - #{$tabContainer3Height_1} ) }
+    .height11 { height : calc(11vh - #{$tabContainer3Height_1} ) }
+    .height10 { height : calc(10vh - #{$tabContainer3Height_1} ) }
+  }
+}
+
+////////////////////////////////////////////////////////////////////////
+@media (max-width: 1700px) {
+  .main .title_wrapper .search_filter_wrapper[data-break="1700"] {
+    position: initial;
+    display: -webkit-box;
+  }
+
+  .main .title_wrapper .search_filter_double_row_wrapper {
+    margin: 0 0 0 auto;
+  }
+}
+
+@media (max-width: 1600px) {
+  .main .title_wrapper .search_filter_wrapper[data-break="1600"] {
+    position: initial;
+  }
+}
+
+@media (max-width: 1500px) {
+  .main .title_wrapper .search_filter_wrapper[data-break="1500"] {
+    position: initial;
+  }
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+  .main .table_top_button_wrapper {
+    display: -webkit-box;
+  }
+
+  .main .title_wrapper .search_filter_wrapper[data-break="1200"] {
+    position: initial;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main .title_wrapper .search_filter_wrapper[data-break="1200"] {
+    position: initial;
+  }
+}

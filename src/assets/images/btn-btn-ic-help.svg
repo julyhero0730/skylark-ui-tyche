@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button-md-icon copy 2</title>
+    <g id="김미정" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button-md-icon-copy-2">
+            <circle id="Oval" cx="13" cy="13" r="13"></circle>
+            <path d="M14.0742187,15.9765625 C14.0742187,15.5924479 14.09375,15.2783203 14.1328125,15.0341797 C14.171875,14.7900391 14.25,14.5703125 14.3671875,14.375 C14.484375,14.1796875 14.6601562,13.9746094 14.8945312,13.7597656 C15.421875,13.2714844 15.874349,12.8076172 16.2519531,12.3681641 C16.6295573,11.9287109 16.9208984,11.4729818 17.1259766,11.0009766 C17.3310547,10.5289714 17.4335937,10.0097656 17.4335937,9.44335938 C17.4335937,8.23893229 17.0478516,7.29329427 16.2763672,6.60644531 C15.5048828,5.91959635 14.4290365,5.57617188 13.0488281,5.57617188 C12.202474,5.57617188 11.4554036,5.72265625 10.8076172,6.015625 C10.1598307,6.30859375 9.65364583,6.72688802 9.2890625,7.27050781 C8.92447917,7.8141276 8.74869792,8.46354167 8.76171875,9.21875 L8.76171875,9.21875 L8.78125,9.27734375 L11.1640625,9.27734375 C11.1640625,8.7109375 11.3479818,8.28450521 11.7158203,7.99804688 C12.0836589,7.71158854 12.5279948,7.56835938 13.0488281,7.56835938 C13.6608073,7.56835938 14.1344401,7.73763021 14.4697266,8.07617188 C14.805013,8.41471354 14.9726562,8.89322917 14.9726562,9.51171875 C14.9726562,9.85026042 14.9156901,10.1806641 14.8017578,10.5029297 C14.6878255,10.8251953 14.5120443,11.1474609 14.2744141,11.4697266 C14.0367839,11.7919922 13.7226562,12.1191406 13.3320312,12.4511719 C12.9674479,12.7571615 12.6728516,13.0257161 12.4482422,13.2568359 C12.2236328,13.4879557 12.0527344,13.7223307 11.9355469,13.9599609 C11.8183594,14.1975911 11.7369792,14.4742839 11.6914062,14.7900391 C11.6458333,15.1057943 11.6230469,15.5013021 11.6230469,15.9765625 L11.6230469,15.9765625 L14.0742187,15.9765625 Z M14.1035156,20 L14.1035156,17.6953125 L11.6035156,17.6953125 L11.6035156,20 L14.1035156,20 Z" id="?" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

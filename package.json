@@ -1,0 +1,46 @@
+{
+  "name": "skylark-ui-lon",
+  "version": "0.0.1",
+  "description": "Skylark Framework UI Lon Library",
+  "productName": "Skylark Framework UI Lon Library",
+  "author": "IMB System",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "axios": "^1.2.1",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "skylark-ui-lib": "^0.0.1",
+    "skylark-ui-lon": "file:",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@quasar/app-vite": "^1.4.3",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.11.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.0.20:8081/nexus/repository/npm-group/"
+  }
+}

@@ -1,0 +1,58 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+$primary : #1976D2;
+$secondary : #26A69A;
+$accent : #9C27B0;
+
+$dark : #1D1D1D;
+$dark-page : #121212;
+
+$positive : #21BA45;
+$negative : #C10015;
+$info : #31CCEC;
+$warning : #F2C037;
+
+$tabContainerPaddingHeight : 60px;
+$tabContainerButtonPanelHeight : 46px;
+$tabContainerButtonPanelHeight2 : 106px;
+$tabContainer2PanelHeight : 20px;
+$tabContainer3PanelHeight : 30px;
+
+$tabContainer1Height : #{$tabContainerPaddingHeight + $tabContainerButtonPanelHeight} ;
+$tabContainer1Height_1 : #{$tabContainerPaddingHeight + $tabContainerButtonPanelHeight2} ;
+$tabContainer2Height : #{$tabContainerPaddingHeight + $tabContainerButtonPanelHeight + $tabContainer2PanelHeight};
+$tabContainer2Height_1 : #{$tabContainerPaddingHeight + $tabContainerButtonPanelHeight2 + $tabContainer2PanelHeight};
+$tabContainer3Height : #{$tabContainerPaddingHeight + $tabContainerButtonPanelHeight + $tabContainer3PanelHeight};
+$tabContainer3Height_1 : #{$tabContainerPaddingHeight + $tabContainerButtonPanelHeight2 + $tabContainer3PanelHeight};
+
+//$typography-font-family : 'roboto';
+$breakpoint-mobile: 335px;
+$breakpoint-tablet: 758px;
+$breakpoint-desktop-base: 1024px;
+
+// Height
+$breakpoint-desktop-fhd: 1080px;
+$breakpoint-desktop-qhd: 2160px;
+
+@mixin desktop_fhd {
+  @media (max-height: #{$breakpoint-desktop-fhd - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop_qhd {
+  @media (min-height: #{$breakpoint-desktop-fhd}) and (max-height: #{$breakpoint-desktop-qhd - 1px}) {
+    @content;
+  }
+}
